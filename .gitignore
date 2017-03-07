@@ -1,0 +1,7 @@
+#build
+ApplozicChat/ApplozicChat/bin
+ApplozicChat/ApplozicChat/obj
+
+packages/
+TestResults/
+*.dylib

@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{1D62B15F-C648-4336-93E2-D3E6C713258F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.1.0-41/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+    <Files>
+      <File FileName="ApplozicChat/MainActivity.cs" Line="11" Column="1" />
+      <File FileName="ApplozicChat/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="ApplozicChat/Resources/values/Strings.xml" Line="12" Column="13" />
+      <File FileName="ApplozicChat/ApplozicFirebaseIIDService.cs" Line="14" Column="27" />
+      <File FileName="ApplozicChat/ApplozicChatManager.cs" Line="59" Column="53" />
+      <File FileName="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.1.0-41/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ApplozicChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>
