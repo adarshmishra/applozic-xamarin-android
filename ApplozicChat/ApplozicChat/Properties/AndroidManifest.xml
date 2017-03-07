@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.applozic.sample.app.applozic_chat">
-<uses-sdk android:minSdkVersion="10" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" 
+	android:versionName="1.0"
+	package="com.mobicomkit.sample">
+	<uses-sdk android:minSdkVersion="10" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -18,7 +20,7 @@
 	<uses-permission android:name="android.permission.CAMERA" />
 	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-	<uses-permission android:name="com.applozic.mobicomkit.sample.permission.MAPS_RECEIVE" />
+	<uses-permission android:name="com.mobicomkit.sample.permission.MAPS_RECEIVE" />
 	<!-- To auto-complete the email text field in the login form with the user's emails -->
 	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
 	<permission android:name="com.applozic.mobicomkit.sample.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
@@ -88,19 +90,22 @@
 		</receiver>
 		<meta-data android:name="activity.open.on.notification" android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" />
 		<!-- NOTE : Do NOT change this value -->
-		<meta-data android:name="com.package.name" 
-		  android:value="com.mobicomkit.sample" />
+		<meta-data android:name="com.package.name" android:value="com.mobicomkit.sample" />
 		<provider android:name="android.support.v4.content.FileProvider" android:authorities="com.mobicomkit.sample.provider" android:exported="false" android:grantUriPermissions="true">
 			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths" />
 		</provider>
-		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" 
+		android:exported="false" />
 		<!-- FCM COnfiguration    -->
-		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" 
+			android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
 			<intent-filter>
 				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
 				<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-				<category android:name="com.mobicomkit.sample" />
+				<category android:name="${applicationId}" />
 			</intent-filter>
 		</receiver>
+		
 	</application>
 </manifest>

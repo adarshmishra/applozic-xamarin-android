@@ -1,37 +1,19 @@
 ﻿<Properties StartupConfiguration="{1D62B15F-C648-4336-93E2-D3E6C713258F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApplozicChat/Resources/Resource.designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApplozicChat/google-services.json">
     <Files>
-      <File FileName="ApplozicChat/MainActivity.cs" Line="17" Column="35" />
-      <File FileName="ApplozicChat/Properties/AndroidManifest.xml" Line="37" Column="48" />
-      <File FileName="ApplozicChat/Resources/values/Strings.xml" Line="12" Column="13" />
-      <File FileName="ApplozicChat/ApplozicFirebaseIIDService.cs" Line="6" Column="14" />
-      <File FileName="ApplozicChat/ApplozicChatManager.cs" Line="59" Column="53" />
-      <File FileName="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.1.0-41/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="315" Column="56" />
-      <File FileName="ApplozicChat/Assets/applozic-settings.json" Line="1" Column="1" />
-      <File FileName="ApplozicChat/Resources/Resource.designer.cs" Line="4773" Column="21" />
+      <File FileName="ApplozicChat/MainActivity.cs" Line="7" Column="1" />
+      <File FileName="ApplozicChat/ApplozicFirebaseIIDService.cs" Line="61" Column="2" />
+      <File FileName="ApplozicChat/ApplozicChatManager.cs" Line="39" Column="25" />
+      <File FileName="ApplozicChat/Resources/values/Strings.xml" Line="11" Column="35" />
+      <File FileName="ApplozicChat/google-services.json" Line="14" Column="10" />
+      <File FileName="ApplozicChat/packages.config" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ApplozicChat" expanded="True">
-            <Node name="ApplozicChat" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Assets" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="Resource.designer.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ApplozicChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.ApplozicChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.10.0.0.3:5555" />
   <MultiItemStartupConfigurations />
 </Properties>

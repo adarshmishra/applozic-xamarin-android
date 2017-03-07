@@ -2,8 +2,10 @@
 using Android.App;
 using Firebase.Iid;
 using Android.Util;
+using Firebase.Messaging;
 using Com.Applozic.Mobicomkit.Api.Account.User;
 using Com.Applozic.Mobicomkit.Api.Account.Register;
+using Com.Applozic.Mobicomkit.Api.Notification;
 
 namespace ApplozicChat
 {
@@ -17,6 +19,7 @@ namespace ApplozicChat
 		{
 			var refreshedToken = FirebaseInstanceId.Instance.Token;
 			Log.Debug(TAG, "Refreshed token: " + refreshedToken);
+			Com.Applozic.Mobicomkit.Applozic.GetInstance(this).SetDeviceRegistrationId(refreshedToken);
 			SendRegistrationToServer(refreshedToken);
 		}
 
@@ -31,4 +34,31 @@ namespace ApplozicChat
 			}
 		}
 	}
+
+
+	[Service]
+	[IntentFilter(new[] { "com.google.firebase.MESSAGING_EVENT" })]
+	public class MyFirebaseMessagingService : FirebaseMessagingService
+	{
+		const string TAG = "MyFirebaseMsgService";
+		public override void OnMessageReceived(RemoteMessage message)
+		{
+			Log.Debug(TAG, "From: " + message.From);
+			Log.Debug(TAG, "Notification Message Body: " + message.Data);
+
+			Log.Info(TAG, "Message data:" + message.Data);
+
+			if (message.Data.Count >0 )
+			{
+				if (MobiComPushReceiver.IsMobiComPushNotification(message.Data))
+				{
+					Log.Info(TAG, "Applozic notification processing...");
+					MobiComPushReceiver.ProcessMessageAsync(this, message.Data);
+					return;
+				}
+			}
+		}
+	}
+
+
 }

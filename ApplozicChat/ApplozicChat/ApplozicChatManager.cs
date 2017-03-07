@@ -2,6 +2,8 @@
 using Android.Content;
 using Java.Lang;
 using Com.Applozic.Mobicomkit.Uiwidgets.Conversation;
+using Com.Applozic.Mobicomkit.Api.Account.Register;
+using Com.Applozic.Mobicomkit.Api.Account.User;
 
 namespace Applozic
 {
@@ -32,7 +34,7 @@ namespace Applozic
 		{
 			// Build Applozic users..
 
-			var user = new Com.Applozic.Mobicomkit.Api.Account.User.ApplozicUser();
+			var user = new ApplozicUser();
 			user.DisplayName = displayName;
 			user.UserId = userId;
 			user.Password = password;
@@ -46,7 +48,7 @@ namespace Applozic
 		 * This is the example of shows
 		 * 
 		 */
-		public void launchChatList()
+		public void LaunchChatList()
 		{
 			context.StartActivity(typeof(Com.Applozic.Mobicomkit.Uiwidgets.Conversation.Activity.ConversationActivity));
 		
@@ -54,7 +56,7 @@ namespace Applozic
 		/**
 		 * 
 		 */
-		public void launchChatWithUser(string receiverUserId)
+		public void LaunchChatWithUser(string receiverUserId)
 		{
 			Intent myIntent = new Intent(context, typeof(Com.Applozic.Mobicomkit.Uiwidgets.Conversation.Activity.ConversationActivity));
 			myIntent.PutExtra("takeOrder", true);
@@ -63,29 +65,89 @@ namespace Applozic
 
 			context.StartActivity(myIntent);
 		}
+
+		/**
+		 * 
+		 */
+		public void Logout()
+		{
+			UserLogoutListener userLogoutListener = new UserLogoutListener();
+			Java.Lang.Void[] args = null;
+			new Com.Applozic.Mobicomkit.Api.Account.User.UserLogoutTask(userLogoutListener,context).Execute(args);
+		}
 	}
 
 	/**
 	 * 
 	 * Class for initialising chat..
 	 */
-	public class UserLoginListener : Java.Lang.Object, Com.Applozic.Mobicomkit.Api.Account.User.UserLoginTask.ITaskListener
+	public class UserLoginListener : Java.Lang.Object, UserLoginTask.ITaskListener
 	{
 
 		//RegistrationResponse registrationResponse, Context context
-		public void OnSuccess(Com.Applozic.Mobicomkit.Api.Account.Register.RegistrationResponse res, Android.Content.Context context)
+		public void OnSuccess(RegistrationResponse res, Context context)
 		{
-			System.Console.WriteLine("response from server::" + res.Message);
+			System.Console.WriteLine("Successfully registered " + res.Message);
+			PushNotificationListener PushRegisterListener = new PushNotificationListener();
+			Java.Lang.Void[] args = null;
+			string deviceRegistartionId = Com.Applozic.Mobicomkit.Applozic.GetInstance(context).DeviceRegistrationId;
+			if (!Android.Text.TextUtils.IsEmpty(deviceRegistartionId))
+			{
+				new PushNotificationTask(deviceRegistartionId, PushRegisterListener, context).Execute(args);
+			}
+		}
+
+		public void OnFailure(RegistrationResponse res, Java.Lang.Exception e)
+		{
+			System.Console.WriteLine("Exception ::" + e.Message);
 
 		}
 
-		public void OnFailure(Com.Applozic.Mobicomkit.Api.Account.Register.RegistrationResponse res, Java.Lang.Exception e)
+	}
+
+
+
+	/**
+	 * 
+	 * Class for initialising chat..
+	 */
+	public class UserLogoutListener : Java.Lang.Object,UserLogoutTask.ITaskListener
+	{
+
+		//RegistrationResponse registrationResponse, Context context
+		public void OnSuccess(Context context)
+		{
+			System.Console.WriteLine("Logged out sucessfully");
+		}
+
+		public void OnFailure(Java.Lang.Exception e)
+		{
+			System.Console.WriteLine("Exception ::" + e.Message);
+
+		}
+
+
+	}
+
+	/**
+	 * 
+	 * Class for initialising chat..
+	 */
+	public class PushNotificationListener : Java.Lang.Object, PushNotificationTask.ITaskListener
+	{
+
+		public void OnSuccess(RegistrationResponse res)
+		{
+			System.Console.WriteLine("Push notification sent sucessfully::" + res.Message);
+
+		}
+
+		public void OnFailure(RegistrationResponse res,Java.Lang.Exception e)
 		{
 			System.Console.WriteLine("Exception ::" + e.Message);
 
 
 		}
-
 
 	}
 

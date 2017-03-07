@@ -2,11 +2,11 @@
 <resources>
 
 	<string name="application_key">applozic-sample-app</string>
-	<string name="hello">Hello World, Click Me!</string>
+	<string name="launch_chat_list">Chat List</string>
+	<string name="one_to_one_chat">One to One Chat</string>
 	<string name="app_name">ApplozicXamSample</string>
     <string name="default_server_url">https://apps.applozic.com</string>
     <string name="default_mqtt_server_url">tcp://apps.applozic.com:1883</string>
     <string name="default_media_location_folder">XamarinApplozic</string>
-	<string name="LaunchChatList">Launch Chat List</string>
-
+     <string name="logout">Log Out</string>
 </resources>

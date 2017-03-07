@@ -6,9 +6,21 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
-        android:id="@+id/myButton"
+        android:id="@+id/launch_chat_list"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/launch_chat_list" />
+    <Button
+        android:id="@+id/launch_one_to_one_chat"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/one_to_one_chat" />
+    <Button
+        android:id="@+id/logout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
 </LinearLayout>

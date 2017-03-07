@@ -2,6 +2,9 @@
 using Android.Widget;
 using Android.OS;
 using Applozic;
+using Firebase.Iid;
+using Android.Util;
+
 
 namespace ApplozicChat
 {
@@ -20,18 +23,30 @@ namespace ApplozicChat
 
 			if (!chatManager.ISUserLoggedIn())
 			{
-				chatManager.RegisterUser("XamAndroid", "Adarsh 01", "123");
+				chatManager.RegisterUser("xam01", "Xamarin 01", "123");
 			}
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button>(Resource.Id.myButton);
+			Button launchChatList = FindViewById<Button>(Resource.Id.launch_chat_list);
+			Button launchOneToOneChat = FindViewById<Button>(Resource.Id.launch_one_to_one_chat);
+			Button logout = FindViewById<Button>(Resource.Id.logout);
 
-			button.Click += delegate
+			launchChatList.Click += delegate
+			{
+				Log.Debug("ApplozicChat", "InstanceID token: " + FirebaseInstanceId.Instance.Token);
+				chatManager.LaunchChatList();
+
+			};
+			launchOneToOneChat.Click += delegate
 			{
 
-				chatManager.launchChatList();
+				chatManager.LaunchChatWithUser("ak02");
 
+			};
+			logout.Click += delegate
+			{
+				chatManager.Logout();
 			};
 
 		}
