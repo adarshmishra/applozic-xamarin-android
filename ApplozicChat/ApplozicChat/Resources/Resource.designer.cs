@@ -1380,44 +1380,44 @@ namespace ApplozicChat
 		public partial class Color
 		{
 			
+			// aapt resource value: 0x7f0800d0
+			public const int abc_background_cache_hint_selector_material_dark = 2131230928;
+			
+			// aapt resource value: 0x7f0800d1
+			public const int abc_background_cache_hint_selector_material_light = 2131230929;
+			
+			// aapt resource value: 0x7f0800d2
+			public const int abc_btn_colored_borderless_text_material = 2131230930;
+			
+			// aapt resource value: 0x7f0800d3
+			public const int abc_btn_colored_text_material = 2131230931;
+			
+			// aapt resource value: 0x7f0800d4
+			public const int abc_color_highlight_material = 2131230932;
+			
 			// aapt resource value: 0x7f0800d5
-			public const int abc_background_cache_hint_selector_material_dark = 2131230933;
+			public const int abc_hint_foreground_material_dark = 2131230933;
 			
 			// aapt resource value: 0x7f0800d6
-			public const int abc_background_cache_hint_selector_material_light = 2131230934;
-			
-			// aapt resource value: 0x7f0800d7
-			public const int abc_btn_colored_borderless_text_material = 2131230935;
-			
-			// aapt resource value: 0x7f0800d8
-			public const int abc_btn_colored_text_material = 2131230936;
-			
-			// aapt resource value: 0x7f0800d9
-			public const int abc_color_highlight_material = 2131230937;
-			
-			// aapt resource value: 0x7f0800da
-			public const int abc_hint_foreground_material_dark = 2131230938;
-			
-			// aapt resource value: 0x7f0800db
-			public const int abc_hint_foreground_material_light = 2131230939;
+			public const int abc_hint_foreground_material_light = 2131230934;
 			
 			// aapt resource value: 0x7f080018
 			public const int abc_input_method_navigation_guard = 2131230744;
 			
-			// aapt resource value: 0x7f0800dc
-			public const int abc_primary_text_disable_only_material_dark = 2131230940;
+			// aapt resource value: 0x7f0800d7
+			public const int abc_primary_text_disable_only_material_dark = 2131230935;
 			
-			// aapt resource value: 0x7f0800dd
-			public const int abc_primary_text_disable_only_material_light = 2131230941;
+			// aapt resource value: 0x7f0800d8
+			public const int abc_primary_text_disable_only_material_light = 2131230936;
 			
-			// aapt resource value: 0x7f0800de
-			public const int abc_primary_text_material_dark = 2131230942;
+			// aapt resource value: 0x7f0800d9
+			public const int abc_primary_text_material_dark = 2131230937;
 			
-			// aapt resource value: 0x7f0800df
-			public const int abc_primary_text_material_light = 2131230943;
+			// aapt resource value: 0x7f0800da
+			public const int abc_primary_text_material_light = 2131230938;
 			
-			// aapt resource value: 0x7f0800e0
-			public const int abc_search_url_text = 2131230944;
+			// aapt resource value: 0x7f0800db
+			public const int abc_search_url_text = 2131230939;
 			
 			// aapt resource value: 0x7f080019
 			public const int abc_search_url_text_normal = 2131230745;
@@ -1428,32 +1428,32 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f08001b
 			public const int abc_search_url_text_selected = 2131230747;
 			
+			// aapt resource value: 0x7f0800dc
+			public const int abc_secondary_text_material_dark = 2131230940;
+			
+			// aapt resource value: 0x7f0800dd
+			public const int abc_secondary_text_material_light = 2131230941;
+			
+			// aapt resource value: 0x7f0800de
+			public const int abc_tint_btn_checkable = 2131230942;
+			
+			// aapt resource value: 0x7f0800df
+			public const int abc_tint_default = 2131230943;
+			
+			// aapt resource value: 0x7f0800e0
+			public const int abc_tint_edittext = 2131230944;
+			
 			// aapt resource value: 0x7f0800e1
-			public const int abc_secondary_text_material_dark = 2131230945;
+			public const int abc_tint_seek_thumb = 2131230945;
 			
 			// aapt resource value: 0x7f0800e2
-			public const int abc_secondary_text_material_light = 2131230946;
+			public const int abc_tint_spinner = 2131230946;
 			
 			// aapt resource value: 0x7f0800e3
-			public const int abc_tint_btn_checkable = 2131230947;
+			public const int abc_tint_switch_thumb = 2131230947;
 			
 			// aapt resource value: 0x7f0800e4
-			public const int abc_tint_default = 2131230948;
-			
-			// aapt resource value: 0x7f0800e5
-			public const int abc_tint_edittext = 2131230949;
-			
-			// aapt resource value: 0x7f0800e6
-			public const int abc_tint_seek_thumb = 2131230950;
-			
-			// aapt resource value: 0x7f0800e7
-			public const int abc_tint_spinner = 2131230951;
-			
-			// aapt resource value: 0x7f0800e8
-			public const int abc_tint_switch_thumb = 2131230952;
-			
-			// aapt resource value: 0x7f0800e9
-			public const int abc_tint_switch_track = 2131230953;
+			public const int abc_tint_switch_track = 2131230948;
 			
 			// aapt resource value: 0x7f08001c
 			public const int accent_material_dark = 2131230748;
@@ -1618,103 +1618,94 @@ namespace ApplozicChat
 			public const int alphabet_z = 2131230853;
 			
 			// aapt resource value: 0x7f080086
-			public const int alter_bkground = 2131230854;
+			public const int apploizc_black_color = 2131230854;
 			
 			// aapt resource value: 0x7f080087
-			public const int alter_text1 = 2131230855;
+			public const int apploizc_custom_channel_message_text_color = 2131230855;
 			
 			// aapt resource value: 0x7f080088
-			public const int alter_text2 = 2131230856;
+			public const int apploizc_dark_black_color = 2131230856;
 			
 			// aapt resource value: 0x7f080089
-			public const int apploizc_black_color = 2131230857;
+			public const int apploizc_darker_gray_color = 2131230857;
 			
 			// aapt resource value: 0x7f08008a
-			public const int apploizc_custom_channel_message_text_color = 2131230858;
+			public const int apploizc_gray_color = 2131230858;
 			
 			// aapt resource value: 0x7f08008b
-			public const int apploizc_dark_black_color = 2131230859;
+			public const int apploizc_lite_gray_color = 2131230859;
 			
 			// aapt resource value: 0x7f08008c
-			public const int apploizc_darker_gray_color = 2131230860;
+			public const int apploizc_transparent_color = 2131230860;
 			
 			// aapt resource value: 0x7f08008d
-			public const int apploizc_gray_color = 2131230861;
+			public const int apploizc_white_color = 2131230861;
 			
 			// aapt resource value: 0x7f08008e
-			public const int apploizc_lite_gray_color = 2131230862;
+			public const int applozic_green_color = 2131230862;
 			
 			// aapt resource value: 0x7f08008f
-			public const int apploizc_transparent_color = 2131230863;
+			public const int applozic_lite_black_color = 2131230863;
 			
 			// aapt resource value: 0x7f080090
-			public const int apploizc_white_color = 2131230864;
+			public const int applozic_location_view_divider_color = 2131230864;
 			
 			// aapt resource value: 0x7f080091
-			public const int applozic_green_color = 2131230865;
+			public const int applozic_message_border_color = 2131230865;
 			
 			// aapt resource value: 0x7f080092
-			public const int applozic_lite_black_color = 2131230866;
+			public const int applozic_message_status_color = 2131230866;
 			
 			// aapt resource value: 0x7f080093
-			public const int applozic_location_view_divider_color = 2131230867;
+			public const int applozic_multimedia_grid_view_background_color = 2131230867;
 			
 			// aapt resource value: 0x7f080094
-			public const int applozic_message_border_color = 2131230868;
+			public const int applozic_profile_devider_color = 2131230868;
 			
 			// aapt resource value: 0x7f080095
-			public const int applozic_message_status_color = 2131230869;
+			public const int applozic_send_message_layout_background_color = 2131230869;
 			
 			// aapt resource value: 0x7f080096
-			public const int applozic_multimedia_grid_view_background_color = 2131230870;
+			public const int applozic_share_contact_background = 2131230870;
 			
 			// aapt resource value: 0x7f080097
-			public const int applozic_profile_devider_color = 2131230871;
+			public const int applozic_share_contact_divider = 2131230871;
 			
 			// aapt resource value: 0x7f080098
-			public const int applozic_send_message_layout_background_color = 2131230872;
+			public const int applozic_theme_color = 2131230872;
 			
 			// aapt resource value: 0x7f080099
-			public const int applozic_share_contact_background = 2131230873;
+			public const int applozic_theme_color_accent = 2131230873;
 			
 			// aapt resource value: 0x7f08009a
-			public const int applozic_share_contact_divider = 2131230874;
+			public const int applozic_theme_color_app = 2131230874;
 			
 			// aapt resource value: 0x7f08009b
-			public const int applozic_theme_color = 2131230875;
+			public const int applozic_theme_color_control_activated = 2131230875;
 			
 			// aapt resource value: 0x7f08009c
-			public const int applozic_theme_color_accent = 2131230876;
+			public const int applozic_theme_color_control_highlight = 2131230876;
 			
 			// aapt resource value: 0x7f08009d
-			public const int applozic_theme_color_app = 2131230877;
+			public const int applozic_theme_color_primary = 2131230877;
 			
 			// aapt resource value: 0x7f08009e
-			public const int applozic_theme_color_control_activated = 2131230878;
+			public const int applozic_theme_color_primary_dark = 2131230878;
 			
 			// aapt resource value: 0x7f08009f
-			public const int applozic_theme_color_control_highlight = 2131230879;
+			public const int applozic_theme_divider = 2131230879;
 			
 			// aapt resource value: 0x7f0800a0
-			public const int applozic_theme_color_primary = 2131230880;
+			public const int applozic_theme_icons = 2131230880;
 			
 			// aapt resource value: 0x7f0800a1
-			public const int applozic_theme_color_primary_dark = 2131230881;
+			public const int applozic_theme_primary_text = 2131230881;
 			
 			// aapt resource value: 0x7f0800a2
-			public const int applozic_theme_divider = 2131230882;
+			public const int applozic_theme_secondary_text = 2131230882;
 			
 			// aapt resource value: 0x7f0800a3
-			public const int applozic_theme_icons = 2131230883;
-			
-			// aapt resource value: 0x7f0800a4
-			public const int applozic_theme_primary_text = 2131230884;
-			
-			// aapt resource value: 0x7f0800a5
-			public const int applozic_theme_secondary_text = 2131230885;
-			
-			// aapt resource value: 0x7f0800a6
-			public const int attachment_background_color = 2131230886;
+			public const int attachment_background_color = 2131230883;
 			
 			// aapt resource value: 0x7f08001e
 			public const int background_floating_material_dark = 2131230750;
@@ -1728,8 +1719,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080021
 			public const int background_material_light = 2131230753;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int black = 2131230887;
+			// aapt resource value: 0x7f0800a4
+			public const int black = 2131230884;
 			
 			// aapt resource value: 0x7f080022
 			public const int bright_foreground_disabled_material_dark = 2131230754;
@@ -1749,9 +1740,6 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080027
 			public const int bright_foreground_material_light = 2131230759;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int button_color = 2131230888;
-			
 			// aapt resource value: 0x7f080028
 			public const int button_material_dark = 2131230760;
 			
@@ -1770,8 +1758,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080016
 			public const int cardview_shadow_start_color = 2131230742;
 			
-			// aapt resource value: 0x7f0800ea
-			public const int common_google_signin_btn_text_dark = 2131230954;
+			// aapt resource value: 0x7f0800e5
+			public const int common_google_signin_btn_text_dark = 2131230949;
 			
 			// aapt resource value: 0x7f080000
 			public const int common_google_signin_btn_text_dark_default = 2131230720;
@@ -1785,8 +1773,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080003
 			public const int common_google_signin_btn_text_dark_pressed = 2131230723;
 			
-			// aapt resource value: 0x7f0800eb
-			public const int common_google_signin_btn_text_light = 2131230955;
+			// aapt resource value: 0x7f0800e6
+			public const int common_google_signin_btn_text_light = 2131230950;
 			
 			// aapt resource value: 0x7f080004
 			public const int common_google_signin_btn_text_light_default = 2131230724;
@@ -1800,32 +1788,32 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080007
 			public const int common_google_signin_btn_text_light_pressed = 2131230727;
 			
+			// aapt resource value: 0x7f0800a5
+			public const int compose_action_button = 2131230885;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int contact_name = 2131230886;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int contact_name_text_color = 2131230887;
+			
+			// aapt resource value: 0x7f0800a8
+			public const int contact_userId_text_color = 2131230888;
+			
 			// aapt resource value: 0x7f0800a9
-			public const int compose_action_button = 2131230889;
+			public const int conversation_list_all_background = 2131230889;
 			
 			// aapt resource value: 0x7f0800aa
-			public const int contact_name = 2131230890;
+			public const int conversation_list_background = 2131230890;
 			
 			// aapt resource value: 0x7f0800ab
-			public const int contact_name_text_color = 2131230891;
-			
-			// aapt resource value: 0x7f0800ac
-			public const int contact_userId_text_color = 2131230892;
-			
-			// aapt resource value: 0x7f0800ad
-			public const int conversation_list_all_background = 2131230893;
-			
-			// aapt resource value: 0x7f0800ae
-			public const int conversation_list_background = 2131230894;
-			
-			// aapt resource value: 0x7f0800af
-			public const int dark_black = 2131230895;
+			public const int dark_black = 2131230891;
 			
 			// aapt resource value: 0x7f080008
 			public const int design_bottom_navigation_shadow_color = 2131230728;
 			
-			// aapt resource value: 0x7f0800ec
-			public const int design_error = 2131230956;
+			// aapt resource value: 0x7f0800e7
+			public const int design_error = 2131230951;
 			
 			// aapt resource value: 0x7f080009
 			public const int design_fab_shadow_end_color = 2131230729;
@@ -1857,8 +1845,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080012
 			public const int design_textinput_error_color_light = 2131230738;
 			
-			// aapt resource value: 0x7f0800ed
-			public const int design_tint_password_toggle = 2131230957;
+			// aapt resource value: 0x7f0800e8
+			public const int design_tint_password_toggle = 2131230952;
 			
 			// aapt resource value: 0x7f08002a
 			public const int dim_foreground_disabled_material_dark = 2131230762;
@@ -1872,14 +1860,14 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f08002d
 			public const int dim_foreground_material_light = 2131230765;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int edittext_hint_color = 2131230896;
+			// aapt resource value: 0x7f0800ac
+			public const int edittext_hint_color = 2131230892;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int empty_conversation_text_color = 2131230897;
+			// aapt resource value: 0x7f0800ad
+			public const int empty_conversation_text_color = 2131230893;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int error_background_color = 2131230898;
+			// aapt resource value: 0x7f0800ae
+			public const int error_background_color = 2131230894;
 			
 			// aapt resource value: 0x7f08002e
 			public const int foreground_material_dark = 2131230766;
@@ -1893,17 +1881,17 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080031
 			public const int highlighted_text_material_light = 2131230769;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int holo_blue = 2131230899;
+			// aapt resource value: 0x7f0800af
+			public const int holo_blue = 2131230895;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int incoming_call = 2131230900;
+			// aapt resource value: 0x7f0800b0
+			public const int incoming_call = 2131230896;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int instruction_color = 2131230901;
+			// aapt resource value: 0x7f0800b1
+			public const int instruction_color = 2131230897;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int location_activity_background = 2131230902;
+			// aapt resource value: 0x7f0800b2
+			public const int location_activity_background = 2131230898;
 			
 			// aapt resource value: 0x7f080032
 			public const int material_blue_grey_800 = 2131230770;
@@ -1941,59 +1929,59 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f08003d
 			public const int material_grey_900 = 2131230781;
 			
+			// aapt resource value: 0x7f0800b3
+			public const int message_action_button = 2131230899;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int message_details_text_color = 2131230900;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int message_text_color = 2131230901;
+			
+			// aapt resource value: 0x7f0800b6
+			public const int message_type_inbox = 2131230902;
+			
 			// aapt resource value: 0x7f0800b7
-			public const int message_action_button = 2131230903;
+			public const int message_type_incoming_call = 2131230903;
 			
 			// aapt resource value: 0x7f0800b8
-			public const int message_details_text_color = 2131230904;
+			public const int message_type_mt_inbox = 2131230904;
 			
 			// aapt resource value: 0x7f0800b9
-			public const int message_text_color = 2131230905;
+			public const int message_type_mt_outbox = 2131230905;
 			
 			// aapt resource value: 0x7f0800ba
-			public const int message_type_inbox = 2131230906;
+			public const int message_type_outbox = 2131230906;
 			
 			// aapt resource value: 0x7f0800bb
-			public const int message_type_incoming_call = 2131230907;
+			public const int message_type_outbox_sent_from_device = 2131230907;
 			
 			// aapt resource value: 0x7f0800bc
-			public const int message_type_mt_inbox = 2131230908;
+			public const int message_type_outgoing_call = 2131230908;
 			
 			// aapt resource value: 0x7f0800bd
-			public const int message_type_mt_outbox = 2131230909;
+			public const int mg_alphabet_fifth = 2131230909;
 			
 			// aapt resource value: 0x7f0800be
-			public const int message_type_outbox = 2131230910;
+			public const int mg_alphabet_first = 2131230910;
 			
 			// aapt resource value: 0x7f0800bf
-			public const int message_type_outbox_sent_from_device = 2131230911;
+			public const int mg_alphabet_fourth = 2131230911;
 			
 			// aapt resource value: 0x7f0800c0
-			public const int message_type_outgoing_call = 2131230912;
+			public const int mg_alphabet_second = 2131230912;
 			
 			// aapt resource value: 0x7f0800c1
-			public const int mg_alphabet_fifth = 2131230913;
+			public const int mg_alphabet_sixth = 2131230913;
 			
 			// aapt resource value: 0x7f0800c2
-			public const int mg_alphabet_first = 2131230914;
+			public const int mg_alphabet_third = 2131230914;
 			
 			// aapt resource value: 0x7f0800c3
-			public const int mg_alphabet_fourth = 2131230915;
+			public const int mobitexter_main_color = 2131230915;
 			
 			// aapt resource value: 0x7f0800c4
-			public const int mg_alphabet_second = 2131230916;
-			
-			// aapt resource value: 0x7f0800c5
-			public const int mg_alphabet_sixth = 2131230917;
-			
-			// aapt resource value: 0x7f0800c6
-			public const int mg_alphabet_third = 2131230918;
-			
-			// aapt resource value: 0x7f0800c7
-			public const int mobitexter_main_color = 2131230919;
-			
-			// aapt resource value: 0x7f0800c8
-			public const int non_alpha = 2131230920;
+			public const int non_alpha = 2131230916;
 			
 			// aapt resource value: 0x7f080017
 			public const int notification_action_color_filter = 2131230743;
@@ -2004,20 +1992,20 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f08003f
 			public const int notification_material_background_media_default_color = 2131230783;
 			
+			// aapt resource value: 0x7f0800c5
+			public const int outgoing_call = 2131230917;
+			
+			// aapt resource value: 0x7f0800c6
+			public const int people_activity_action_bar_color = 2131230918;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int people_activity_main_color = 2131230919;
+			
+			// aapt resource value: 0x7f0800c8
+			public const int people_activity_primary_dark_color = 2131230920;
+			
 			// aapt resource value: 0x7f0800c9
-			public const int outgoing_call = 2131230921;
-			
-			// aapt resource value: 0x7f0800ca
-			public const int people_activity_action_bar_color = 2131230922;
-			
-			// aapt resource value: 0x7f0800cb
-			public const int people_activity_main_color = 2131230923;
-			
-			// aapt resource value: 0x7f0800cc
-			public const int people_activity_primary_dark_color = 2131230924;
-			
-			// aapt resource value: 0x7f0800cd
-			public const int primary_dark_color = 2131230925;
+			public const int primary_dark_color = 2131230921;
 			
 			// aapt resource value: 0x7f080040
 			public const int primary_dark_material_dark = 2131230784;
@@ -2043,8 +2031,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080047
 			public const int primary_text_disabled_material_light = 2131230791;
 			
-			// aapt resource value: 0x7f0800ce
-			public const int received_message_bg_color = 2131230926;
+			// aapt resource value: 0x7f0800ca
+			public const int received_message_bg_color = 2131230922;
 			
 			// aapt resource value: 0x7f080048
 			public const int ripple_material_dark = 2131230792;
@@ -2064,11 +2052,11 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f08004d
 			public const int secondary_text_disabled_material_light = 2131230797;
 			
-			// aapt resource value: 0x7f0800cf
-			public const int sent_message_bg_color = 2131230927;
+			// aapt resource value: 0x7f0800cb
+			public const int sent_message_bg_color = 2131230923;
 			
-			// aapt resource value: 0x7f0800d0
-			public const int sent_message_text_color = 2131230928;
+			// aapt resource value: 0x7f0800cc
+			public const int sent_message_text_color = 2131230924;
 			
 			// aapt resource value: 0x7f08004e
 			public const int switch_thumb_disabled_material_dark = 2131230798;
@@ -2076,11 +2064,11 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f08004f
 			public const int switch_thumb_disabled_material_light = 2131230799;
 			
-			// aapt resource value: 0x7f0800ee
-			public const int switch_thumb_material_dark = 2131230958;
+			// aapt resource value: 0x7f0800e9
+			public const int switch_thumb_material_dark = 2131230953;
 			
-			// aapt resource value: 0x7f0800ef
-			public const int switch_thumb_material_light = 2131230959;
+			// aapt resource value: 0x7f0800ea
+			public const int switch_thumb_material_light = 2131230954;
 			
 			// aapt resource value: 0x7f080050
 			public const int switch_thumb_normal_material_dark = 2131230800;
@@ -2088,17 +2076,14 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f080051
 			public const int switch_thumb_normal_material_light = 2131230801;
 			
-			// aapt resource value: 0x7f0800d1
-			public const int textView_color = 2131230929;
+			// aapt resource value: 0x7f0800cd
+			public const int text_non_alpha = 2131230925;
 			
-			// aapt resource value: 0x7f0800d2
-			public const int text_non_alpha = 2131230930;
+			// aapt resource value: 0x7f0800ce
+			public const int white = 2131230926;
 			
-			// aapt resource value: 0x7f0800d3
-			public const int white = 2131230931;
-			
-			// aapt resource value: 0x7f0800d4
-			public const int whitesmoke = 2131230932;
+			// aapt resource value: 0x7f0800cf
+			public const int whitesmoke = 2131230927;
 			
 			static Color()
 			{
@@ -2470,12 +2455,6 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0c007b
 			public const int disabled_alpha_material_light = 2131492987;
 			
-			// aapt resource value: 0x7f0c0095
-			public const int fragment_card_view_horizontal_margin = 2131493013;
-			
-			// aapt resource value: 0x7f0c0096
-			public const int fragment_card_view_vertical_margin = 2131493014;
-			
 			// aapt resource value: 0x7f0c007c
 			public const int highlight_alpha_material_colored = 2131492988;
 			
@@ -2509,8 +2488,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0c008e
 			public const int left_menu_item_text_size = 2131493006;
 			
-			// aapt resource value: 0x7f0c0097
-			public const int letter_tile_size = 2131493015;
+			// aapt resource value: 0x7f0c0095
+			public const int letter_tile_size = 2131493013;
 			
 			// aapt resource value: 0x7f0c008f
 			public const int listview_item_padding = 2131493007;
@@ -2569,8 +2548,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0c0091
 			public const int padding = 2131493009;
 			
-			// aapt resource value: 0x7f0c0098
-			public const int tile_letter_font_size = 2131493016;
+			// aapt resource value: 0x7f0c0096
+			public const int tile_letter_font_size = 2131493014;
 			
 			static Dimension()
 			{
@@ -2982,250 +2961,244 @@ namespace ApplozicChat
 			public const int applozic_sent_message_bubble = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int applozic_upload_dot = 2130837636;
+			public const int applozic_video_default_thumbnail = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int applozic_video_default_thumbnail = 2130837637;
+			public const int applozic_video_play_icon = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int applozic_video_play_icon = 2130837638;
-			
-			// aapt resource value: 0x7f020087
-			public const int avd_hide_password = 2130837639;
-			
-			// aapt resource value: 0x7f0200d0
-			public const int avd_hide_password_1 = 2130837712;
-			
-			// aapt resource value: 0x7f0200d1
-			public const int avd_hide_password_2 = 2130837713;
-			
-			// aapt resource value: 0x7f0200d2
-			public const int avd_hide_password_3 = 2130837714;
-			
-			// aapt resource value: 0x7f020088
-			public const int avd_show_password = 2130837640;
-			
-			// aapt resource value: 0x7f0200d3
-			public const int avd_show_password_1 = 2130837715;
-			
-			// aapt resource value: 0x7f0200d4
-			public const int avd_show_password_2 = 2130837716;
-			
-			// aapt resource value: 0x7f0200d5
-			public const int avd_show_password_3 = 2130837717;
-			
-			// aapt resource value: 0x7f020089
-			public const int button_circle = 2130837641;
-			
-			// aapt resource value: 0x7f02008a
-			public const int circle = 2130837642;
-			
-			// aapt resource value: 0x7f02008b
-			public const int circle_arrow_down_download = 2130837643;
-			
-			// aapt resource value: 0x7f02008c
-			public const int circle_arrow_upload = 2130837644;
-			
-			// aapt resource value: 0x7f02008d
-			public const int common_full_open_on_phone = 2130837645;
-			
-			// aapt resource value: 0x7f02008e
-			public const int common_google_signin_btn_icon_dark = 2130837646;
-			
-			// aapt resource value: 0x7f02008f
-			public const int common_google_signin_btn_icon_dark_disabled = 2130837647;
-			
-			// aapt resource value: 0x7f020090
-			public const int common_google_signin_btn_icon_dark_focused = 2130837648;
-			
-			// aapt resource value: 0x7f020091
-			public const int common_google_signin_btn_icon_dark_normal = 2130837649;
-			
-			// aapt resource value: 0x7f020092
-			public const int common_google_signin_btn_icon_dark_pressed = 2130837650;
-			
-			// aapt resource value: 0x7f020093
-			public const int common_google_signin_btn_icon_light = 2130837651;
-			
-			// aapt resource value: 0x7f020094
-			public const int common_google_signin_btn_icon_light_disabled = 2130837652;
-			
-			// aapt resource value: 0x7f020095
-			public const int common_google_signin_btn_icon_light_focused = 2130837653;
-			
-			// aapt resource value: 0x7f020096
-			public const int common_google_signin_btn_icon_light_normal = 2130837654;
-			
-			// aapt resource value: 0x7f020097
-			public const int common_google_signin_btn_icon_light_pressed = 2130837655;
-			
-			// aapt resource value: 0x7f020098
-			public const int common_google_signin_btn_text_dark = 2130837656;
-			
-			// aapt resource value: 0x7f020099
-			public const int common_google_signin_btn_text_dark_disabled = 2130837657;
-			
-			// aapt resource value: 0x7f02009a
-			public const int common_google_signin_btn_text_dark_focused = 2130837658;
-			
-			// aapt resource value: 0x7f02009b
-			public const int common_google_signin_btn_text_dark_normal = 2130837659;
-			
-			// aapt resource value: 0x7f02009c
-			public const int common_google_signin_btn_text_dark_pressed = 2130837660;
-			
-			// aapt resource value: 0x7f02009d
-			public const int common_google_signin_btn_text_light = 2130837661;
-			
-			// aapt resource value: 0x7f02009e
-			public const int common_google_signin_btn_text_light_disabled = 2130837662;
-			
-			// aapt resource value: 0x7f02009f
-			public const int common_google_signin_btn_text_light_focused = 2130837663;
-			
-			// aapt resource value: 0x7f0200a0
-			public const int common_google_signin_btn_text_light_normal = 2130837664;
-			
-			// aapt resource value: 0x7f0200a1
-			public const int common_google_signin_btn_text_light_pressed = 2130837665;
-			
-			// aapt resource value: 0x7f0200cf
-			public const int crop_image_menu_crop = 2130837711;
-			
-			// aapt resource value: 0x7f0200a2
-			public const int crop_image_menu_rotate_left = 2130837666;
-			
-			// aapt resource value: 0x7f0200a3
-			public const int crop_image_menu_rotate_right = 2130837667;
-			
-			// aapt resource value: 0x7f0200a4
-			public const int design_bottom_navigation_item_background = 2130837668;
-			
-			// aapt resource value: 0x7f0200a5
-			public const int design_fab_background = 2130837669;
-			
-			// aapt resource value: 0x7f0200a6
-			public const int design_ic_visibility = 2130837670;
-			
-			// aapt resource value: 0x7f0200a7
-			public const int design_ic_visibility_off = 2130837671;
-			
-			// aapt resource value: 0x7f0200a8
-			public const int design_password_eye = 2130837672;
-			
-			// aapt resource value: 0x7f0200a9
-			public const int design_snackbar_background = 2130837673;
-			
-			// aapt resource value: 0x7f0200aa
-			public const int ic_documentreceive = 2130837674;
-			
-			// aapt resource value: 0x7f0200ab
-			public const int ic_file_music_grey600_24dp = 2130837675;
-			
-			// aapt resource value: 0x7f0200ac
-			public const int ic_launcher = 2130837676;
-			
-			// aapt resource value: 0x7f0200ad
-			public const int input = 2130837677;
-			
-			// aapt resource value: 0x7f0200ae
-			public const int layout_shadow_border = 2130837678;
-			
-			// aapt resource value: 0x7f0200af
-			public const int mobicom_attachment_download = 2130837679;
-			
-			// aapt resource value: 0x7f0200b0
-			public const int mobicom_attachment_file = 2130837680;
-			
-			// aapt resource value: 0x7f0200b1
-			public const int mobicom_emoji_23ec = 2130837681;
-			
-			// aapt resource value: 0x7f0200b2
-			public const int mobicom_emoticons_icon = 2130837682;
-			
-			// aapt resource value: 0x7f0200b3
-			public const int mobicom_ic_action_send = 2130837683;
-			
-			// aapt resource value: 0x7f0200b4
-			public const int mobicom_ic_action_send_now = 2130837684;
-			
-			// aapt resource value: 0x7f0200b5
-			public const int mobicom_ic_delete_white_18dp = 2130837685;
-			
-			// aapt resource value: 0x7f0200b6
-			public const int mobicom_ic_launcher = 2130837686;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int mobicom_new_attachment = 2130837687;
-			
-			// aapt resource value: 0x7f0200b8
-			public const int mobicom_notification_location_icon = 2130837688;
-			
-			// aapt resource value: 0x7f0200b9
-			public const int mobicom_social_forward = 2130837689;
-			
-			// aapt resource value: 0x7f0200ba
-			public const int mobicom_social_reply = 2130837690;
-			
-			// aapt resource value: 0x7f0200bb
-			public const int mobicom_social_share = 2130837691;
-			
-			// aapt resource value: 0x7f0200bc
-			public const int mobiframework_circular_text_view = 2130837692;
-			
-			// aapt resource value: 0x7f0200bd
-			public const int navigation_empty_icon = 2130837693;
-			
-			// aapt resource value: 0x7f0200be
-			public const int notification_action_background = 2130837694;
-			
-			// aapt resource value: 0x7f0200bf
-			public const int notification_bg = 2130837695;
-			
-			// aapt resource value: 0x7f0200c0
-			public const int notification_bg_low = 2130837696;
-			
-			// aapt resource value: 0x7f0200c1
-			public const int notification_bg_low_normal = 2130837697;
-			
-			// aapt resource value: 0x7f0200c2
-			public const int notification_bg_low_pressed = 2130837698;
-			
-			// aapt resource value: 0x7f0200c3
-			public const int notification_bg_normal = 2130837699;
-			
-			// aapt resource value: 0x7f0200c4
-			public const int notification_bg_normal_pressed = 2130837700;
-			
-			// aapt resource value: 0x7f0200c5
-			public const int notification_icon_background = 2130837701;
-			
-			// aapt resource value: 0x7f0200cd
-			public const int notification_template_icon_bg = 2130837709;
+			public const int avd_hide_password = 2130837638;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int notification_template_icon_low_bg = 2130837710;
+			public const int avd_hide_password_1 = 2130837710;
 			
-			// aapt resource value: 0x7f0200c6
-			public const int notification_tile_bg = 2130837702;
+			// aapt resource value: 0x7f0200cf
+			public const int avd_hide_password_2 = 2130837711;
 			
-			// aapt resource value: 0x7f0200c7
-			public const int notify_panel_notification_icon_bg = 2130837703;
+			// aapt resource value: 0x7f0200d0
+			public const int avd_hide_password_3 = 2130837712;
 			
-			// aapt resource value: 0x7f0200c8
-			public const int online_circle = 2130837704;
+			// aapt resource value: 0x7f020087
+			public const int avd_show_password = 2130837639;
 			
-			// aapt resource value: 0x7f0200c9
-			public const int quickcontact_badge_small = 2130837705;
+			// aapt resource value: 0x7f0200d1
+			public const int avd_show_password_1 = 2130837713;
 			
-			// aapt resource value: 0x7f0200ca
-			public const int quickcontact_badge_small_pressed = 2130837706;
+			// aapt resource value: 0x7f0200d2
+			public const int avd_show_password_2 = 2130837714;
+			
+			// aapt resource value: 0x7f0200d3
+			public const int avd_show_password_3 = 2130837715;
+			
+			// aapt resource value: 0x7f020088
+			public const int button_circle = 2130837640;
+			
+			// aapt resource value: 0x7f020089
+			public const int circle = 2130837641;
+			
+			// aapt resource value: 0x7f02008a
+			public const int common_full_open_on_phone = 2130837642;
+			
+			// aapt resource value: 0x7f02008b
+			public const int common_google_signin_btn_icon_dark = 2130837643;
+			
+			// aapt resource value: 0x7f02008c
+			public const int common_google_signin_btn_icon_dark_disabled = 2130837644;
+			
+			// aapt resource value: 0x7f02008d
+			public const int common_google_signin_btn_icon_dark_focused = 2130837645;
+			
+			// aapt resource value: 0x7f02008e
+			public const int common_google_signin_btn_icon_dark_normal = 2130837646;
+			
+			// aapt resource value: 0x7f02008f
+			public const int common_google_signin_btn_icon_dark_pressed = 2130837647;
+			
+			// aapt resource value: 0x7f020090
+			public const int common_google_signin_btn_icon_light = 2130837648;
+			
+			// aapt resource value: 0x7f020091
+			public const int common_google_signin_btn_icon_light_disabled = 2130837649;
+			
+			// aapt resource value: 0x7f020092
+			public const int common_google_signin_btn_icon_light_focused = 2130837650;
+			
+			// aapt resource value: 0x7f020093
+			public const int common_google_signin_btn_icon_light_normal = 2130837651;
+			
+			// aapt resource value: 0x7f020094
+			public const int common_google_signin_btn_icon_light_pressed = 2130837652;
+			
+			// aapt resource value: 0x7f020095
+			public const int common_google_signin_btn_text_dark = 2130837653;
+			
+			// aapt resource value: 0x7f020096
+			public const int common_google_signin_btn_text_dark_disabled = 2130837654;
+			
+			// aapt resource value: 0x7f020097
+			public const int common_google_signin_btn_text_dark_focused = 2130837655;
+			
+			// aapt resource value: 0x7f020098
+			public const int common_google_signin_btn_text_dark_normal = 2130837656;
+			
+			// aapt resource value: 0x7f020099
+			public const int common_google_signin_btn_text_dark_pressed = 2130837657;
+			
+			// aapt resource value: 0x7f02009a
+			public const int common_google_signin_btn_text_light = 2130837658;
+			
+			// aapt resource value: 0x7f02009b
+			public const int common_google_signin_btn_text_light_disabled = 2130837659;
+			
+			// aapt resource value: 0x7f02009c
+			public const int common_google_signin_btn_text_light_focused = 2130837660;
+			
+			// aapt resource value: 0x7f02009d
+			public const int common_google_signin_btn_text_light_normal = 2130837661;
+			
+			// aapt resource value: 0x7f02009e
+			public const int common_google_signin_btn_text_light_pressed = 2130837662;
+			
+			// aapt resource value: 0x7f0200cd
+			public const int crop_image_menu_crop = 2130837709;
+			
+			// aapt resource value: 0x7f02009f
+			public const int crop_image_menu_rotate_left = 2130837663;
+			
+			// aapt resource value: 0x7f0200a0
+			public const int crop_image_menu_rotate_right = 2130837664;
+			
+			// aapt resource value: 0x7f0200a1
+			public const int design_bottom_navigation_item_background = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int design_fab_background = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int design_ic_visibility = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int design_ic_visibility_off = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int design_password_eye = 2130837669;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int design_snackbar_background = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int ic_communication_call_missed = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int ic_launcher = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int ic_phone_missed_white_24dp = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int ic_videocam_white_24px = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int input = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int layout_shadow_border = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int mobicom_attachment_download = 2130837677;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int mobicom_attachment_file = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int mobicom_emoji_23ec = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int mobicom_emoticons_icon = 2130837680;
+			
+			// aapt resource value: 0x7f0200b1
+			public const int mobicom_ic_action_send = 2130837681;
+			
+			// aapt resource value: 0x7f0200b2
+			public const int mobicom_ic_action_send_now = 2130837682;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int mobicom_ic_delete_white_18dp = 2130837683;
+			
+			// aapt resource value: 0x7f0200b4
+			public const int mobicom_ic_launcher = 2130837684;
+			
+			// aapt resource value: 0x7f0200b5
+			public const int mobicom_new_attachment = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int mobicom_notification_location_icon = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int mobicom_social_forward = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int mobicom_social_reply = 2130837688;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int mobicom_social_share = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int mobiframework_circular_text_view = 2130837690;
+			
+			// aapt resource value: 0x7f0200bb
+			public const int navigation_empty_icon = 2130837691;
+			
+			// aapt resource value: 0x7f0200bc
+			public const int notification_action_background = 2130837692;
+			
+			// aapt resource value: 0x7f0200bd
+			public const int notification_bg = 2130837693;
+			
+			// aapt resource value: 0x7f0200be
+			public const int notification_bg_low = 2130837694;
+			
+			// aapt resource value: 0x7f0200bf
+			public const int notification_bg_low_normal = 2130837695;
+			
+			// aapt resource value: 0x7f0200c0
+			public const int notification_bg_low_pressed = 2130837696;
+			
+			// aapt resource value: 0x7f0200c1
+			public const int notification_bg_normal = 2130837697;
+			
+			// aapt resource value: 0x7f0200c2
+			public const int notification_bg_normal_pressed = 2130837698;
+			
+			// aapt resource value: 0x7f0200c3
+			public const int notification_icon_background = 2130837699;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int quickcontact_badge_small_unpressed = 2130837707;
+			public const int notification_template_icon_bg = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int unread_message_background = 2130837708;
+			public const int notification_template_icon_low_bg = 2130837708;
+			
+			// aapt resource value: 0x7f0200c4
+			public const int notification_tile_bg = 2130837700;
+			
+			// aapt resource value: 0x7f0200c5
+			public const int notify_panel_notification_icon_bg = 2130837701;
+			
+			// aapt resource value: 0x7f0200c6
+			public const int online_circle = 2130837702;
+			
+			// aapt resource value: 0x7f0200c7
+			public const int quickcontact_badge_small = 2130837703;
+			
+			// aapt resource value: 0x7f0200c8
+			public const int quickcontact_badge_small_pressed = 2130837704;
+			
+			// aapt resource value: 0x7f0200c9
+			public const int quickcontact_badge_small_unpressed = 2130837705;
+			
+			// aapt resource value: 0x7f0200ca
+			public const int unread_message_background = 2130837706;
 			
 			static Drawable()
 			{
@@ -3240,26 +3213,26 @@ namespace ApplozicChat
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0d00f3
-			public const int CropOverlayView = 2131558643;
+			// aapt resource value: 0x7f0d00e7
+			public const int CropOverlayView = 2131558631;
 			
-			// aapt resource value: 0x7f0d00f4
-			public const int CropProgressBar = 2131558644;
+			// aapt resource value: 0x7f0d00e8
+			public const int CropProgressBar = 2131558632;
 			
-			// aapt resource value: 0x7f0d019d
-			public const int Done = 2131558813;
+			// aapt resource value: 0x7f0d0195
+			public const int Done = 2131558805;
 			
-			// aapt resource value: 0x7f0d00f2
-			public const int ImageView_image = 2131558642;
+			// aapt resource value: 0x7f0d00e6
+			public const int ImageView_image = 2131558630;
 			
-			// aapt resource value: 0x7f0d019c
-			public const int Next = 2131558812;
+			// aapt resource value: 0x7f0d0194
+			public const int Next = 2131558804;
 			
-			// aapt resource value: 0x7f0d016d
-			public const int action0 = 2131558765;
+			// aapt resource value: 0x7f0d0165
+			public const int action0 = 2131558757;
 			
-			// aapt resource value: 0x7f0d00df
-			public const int actionButton = 2131558623;
+			// aapt resource value: 0x7f0d00d3
+			public const int actionButton = 2131558611;
 			
 			// aapt resource value: 0x7f0d0076
 			public const int action_bar = 2131558518;
@@ -3282,17 +3255,17 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0053
 			public const int action_bar_title = 2131558483;
 			
-			// aapt resource value: 0x7f0d016a
-			public const int action_container = 2131558762;
+			// aapt resource value: 0x7f0d0162
+			public const int action_container = 2131558754;
 			
 			// aapt resource value: 0x7f0d0077
 			public const int action_context_bar = 2131558519;
 			
-			// aapt resource value: 0x7f0d0171
-			public const int action_divider = 2131558769;
+			// aapt resource value: 0x7f0d0169
+			public const int action_divider = 2131558761;
 			
-			// aapt resource value: 0x7f0d016b
-			public const int action_image = 2131558763;
+			// aapt resource value: 0x7f0d0163
+			public const int action_image = 2131558755;
 			
 			// aapt resource value: 0x7f0d0008
 			public const int action_menu_divider = 2131558408;
@@ -3309,11 +3282,11 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0055
 			public const int action_mode_close_button = 2131558485;
 			
-			// aapt resource value: 0x7f0d016c
-			public const int action_text = 2131558764;
+			// aapt resource value: 0x7f0d0164
+			public const int action_text = 2131558756;
 			
-			// aapt resource value: 0x7f0d017a
-			public const int actions = 2131558778;
+			// aapt resource value: 0x7f0d0172
+			public const int actions = 2131558770;
 			
 			// aapt resource value: 0x7f0d0056
 			public const int activity_chooser_view_content = 2131558486;
@@ -3321,8 +3294,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0042
 			public const int add = 2131558466;
 			
-			// aapt resource value: 0x7f0d0198
-			public const int add_member_to_channel = 2131558808;
+			// aapt resource value: 0x7f0d0190
+			public const int add_member_to_channel = 2131558800;
 			
 			// aapt resource value: 0x7f0d0014
 			public const int adjust_height = 2131558420;
@@ -3330,8 +3303,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0015
 			public const int adjust_width = 2131558421;
 			
-			// aapt resource value: 0x7f0d00e9
-			public const int adminTextView = 2131558633;
+			// aapt resource value: 0x7f0d00dd
+			public const int adminTextView = 2131558621;
 			
 			// aapt resource value: 0x7f0d006a
 			public const int alertTitle = 2131558506;
@@ -3339,23 +3312,38 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0031
 			public const int all = 2131558449;
 			
-			// aapt resource value: 0x7f0d00b6
-			public const int alphabeticImage = 2131558582;
+			// aapt resource value: 0x7f0d00ab
+			public const int alphabeticImage = 2131558571;
 			
 			// aapt resource value: 0x7f0d0046
 			public const int always = 2131558470;
 			
-			// aapt resource value: 0x7f0d00d0
-			public const int app_bar = 2131558608;
+			// aapt resource value: 0x7f0d00c5
+			public const int app_bar = 2131558597;
 			
-			// aapt resource value: 0x7f0d01a9
-			public const int applozicUserProfile = 2131558825;
+			// aapt resource value: 0x7f0d00f6
+			public const int app_heading_tv = 2131558646;
 			
-			// aapt resource value: 0x7f0d00cd
-			public const int applozic_channel_profile_camera = 2131558605;
+			// aapt resource value: 0x7f0d01a0
+			public const int applozicUserProfile = 2131558816;
 			
-			// aapt resource value: 0x7f0d00a8
-			public const int applozic_custom_message_layout_content = 2131558568;
+			// aapt resource value: 0x7f0d00a0
+			public const int applozic_call_duration = 2131558560;
+			
+			// aapt resource value: 0x7f0d009e
+			public const int applozic_call_image_type = 2131558558;
+			
+			// aapt resource value: 0x7f0d009f
+			public const int applozic_call_status = 2131558559;
+			
+			// aapt resource value: 0x7f0d00a1
+			public const int applozic_call_timing = 2131558561;
+			
+			// aapt resource value: 0x7f0d00c2
+			public const int applozic_channel_profile_camera = 2131558594;
+			
+			// aapt resource value: 0x7f0d00a9
+			public const int applozic_custom_message_layout_content = 2131558569;
 			
 			// aapt resource value: 0x7f0d009a
 			public const int applozic_datausage_section_rl = 2131558554;
@@ -3364,76 +3352,58 @@ namespace ApplozicChat
 			public const int applozic_datausage_verticalline_rl = 2131558555;
 			
 			// aapt resource value: 0x7f0d00b0
-			public const int applozic_doc_download_progress = 2131558576;
+			public const int applozic_file_info_inner_layout = 2131558576;
 			
-			// aapt resource value: 0x7f0d00af
-			public const int applozic_doc_download_progress_rl = 2131558575;
+			// aapt resource value: 0x7f0d00d9
+			public const int applozic_group_member_info = 2131558617;
 			
-			// aapt resource value: 0x7f0d00b2
-			public const int applozic_doc_downloaded = 2131558578;
+			// aapt resource value: 0x7f0d00ad
+			public const int applozic_group_members = 2131558573;
+			
+			// aapt resource value: 0x7f0d00ae
+			public const int applozic_group_name = 2131558574;
+			
+			// aapt resource value: 0x7f0d017d
+			public const int applozic_group_profile = 2131558781;
+			
+			// aapt resource value: 0x7f0d017e
+			public const int applozic_group_profile_camera = 2131558782;
 			
 			// aapt resource value: 0x7f0d00b4
-			public const int applozic_doc_file_name = 2131558580;
+			public const int applozic_message_info_attachment_filename = 2131558580;
 			
-			// aapt resource value: 0x7f0d00ac
-			public const int applozic_doc_file_size = 2131558572;
+			// aapt resource value: 0x7f0d00b3
+			public const int applozic_message_info_attachment_icon = 2131558579;
 			
-			// aapt resource value: 0x7f0d00ab
-			public const int applozic_download_image = 2131558571;
+			// aapt resource value: 0x7f0d00b1
+			public const int applozic_message_info_attachmentview = 2131558577;
 			
-			// aapt resource value: 0x7f0d00bb
-			public const int applozic_file_info_inner_layout = 2131558587;
-			
-			// aapt resource value: 0x7f0d00e5
-			public const int applozic_group_member_info = 2131558629;
-			
-			// aapt resource value: 0x7f0d00b8
-			public const int applozic_group_members = 2131558584;
-			
-			// aapt resource value: 0x7f0d00b9
-			public const int applozic_group_name = 2131558585;
-			
-			// aapt resource value: 0x7f0d0185
-			public const int applozic_group_profile = 2131558789;
-			
-			// aapt resource value: 0x7f0d0186
-			public const int applozic_group_profile_camera = 2131558790;
-			
-			// aapt resource value: 0x7f0d00bf
-			public const int applozic_message_info_attachment_filename = 2131558591;
-			
-			// aapt resource value: 0x7f0d00be
-			public const int applozic_message_info_attachment_icon = 2131558590;
-			
-			// aapt resource value: 0x7f0d00bc
-			public const int applozic_message_info_attachmentview = 2131558588;
+			// aapt resource value: 0x7f0d00af
+			public const int applozic_message_info_default_layout = 2131558575;
 			
 			// aapt resource value: 0x7f0d00ba
-			public const int applozic_message_info_default_layout = 2131558586;
+			public const int applozic_message_info_delivered_header_card = 2131558586;
 			
-			// aapt resource value: 0x7f0d00c5
-			public const int applozic_message_info_delivered_header_card = 2131558597;
+			// aapt resource value: 0x7f0d00bb
+			public const int applozic_message_info_delivered_list_card = 2131558587;
 			
-			// aapt resource value: 0x7f0d00c6
-			public const int applozic_message_info_delivered_list_card = 2131558598;
+			// aapt resource value: 0x7f0d00bc
+			public const int applozic_message_info_delivered_list_view = 2131558588;
 			
-			// aapt resource value: 0x7f0d00c7
-			public const int applozic_message_info_delivered_list_view = 2131558599;
+			// aapt resource value: 0x7f0d00b6
+			public const int applozic_message_info_message_text = 2131558582;
 			
-			// aapt resource value: 0x7f0d00c1
-			public const int applozic_message_info_message_text = 2131558593;
+			// aapt resource value: 0x7f0d00b2
+			public const int applozic_message_info_progress_bar = 2131558578;
 			
-			// aapt resource value: 0x7f0d00bd
-			public const int applozic_message_info_progress_bar = 2131558589;
+			// aapt resource value: 0x7f0d00b8
+			public const int applozic_message_info_read_card = 2131558584;
 			
-			// aapt resource value: 0x7f0d00c3
-			public const int applozic_message_info_read_card = 2131558595;
+			// aapt resource value: 0x7f0d00b7
+			public const int applozic_message_info_read_header_card = 2131558583;
 			
-			// aapt resource value: 0x7f0d00c2
-			public const int applozic_message_info_read_header_card = 2131558594;
-			
-			// aapt resource value: 0x7f0d00c4
-			public const int applozic_message_info_read_list = 2131558596;
+			// aapt resource value: 0x7f0d00b9
+			public const int applozic_message_info_read_list = 2131558585;
 			
 			// aapt resource value: 0x7f0d0095
 			public const int applozic_notification_section_rl = 2131558549;
@@ -3444,20 +3414,14 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0096
 			public const int applozic_notification_verticalline_rl = 2131558550;
 			
-			// aapt resource value: 0x7f0d0099
-			public const int applozic_notification_vibration = 2131558553;
-			
 			// aapt resource value: 0x7f0d009c
-			public const int applozic_profile_data_usage_heading = 2131558556;
+			public const int applozic_profile_data_usage = 2131558556;
 			
 			// aapt resource value: 0x7f0d008c
 			public const int applozic_profile_displayname = 2131558540;
 			
-			// aapt resource value: 0x7f0d00a0
-			public const int applozic_profile_logout = 2131558560;
-			
 			// aapt resource value: 0x7f0d009d
-			public const int applozic_profile_media_auto_download_heading = 2131558557;
+			public const int applozic_profile_logout = 2131558557;
 			
 			// aapt resource value: 0x7f0d0097
 			public const int applozic_profile_notification_heading = 2131558551;
@@ -3480,11 +3444,11 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d008f
 			public const int applozic_profile_verticalline_rl = 2131558543;
 			
-			// aapt resource value: 0x7f0d00ae
-			public const int applozic_retry__image = 2131558574;
+			// aapt resource value: 0x7f0d0099
+			public const int applozic_switch_notification = 2131558553;
 			
-			// aapt resource value: 0x7f0d0191
-			public const int applozic_user_phone_cardview = 2131558801;
+			// aapt resource value: 0x7f0d0189
+			public const int applozic_user_phone_cardview = 2131558793;
 			
 			// aapt resource value: 0x7f0d008a
 			public const int applozic_user_profile = 2131558538;
@@ -3492,65 +3456,62 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d008b
 			public const int applozic_user_profile_camera = 2131558539;
 			
-			// aapt resource value: 0x7f0d018e
-			public const int applozic_user_status = 2131558798;
+			// aapt resource value: 0x7f0d0186
+			public const int applozic_user_status = 2131558790;
 			
-			// aapt resource value: 0x7f0d018f
-			public const int applzoic_email_cardview = 2131558799;
+			// aapt resource value: 0x7f0d0187
+			public const int applzoic_email_cardview = 2131558791;
 			
-			// aapt resource value: 0x7f0d018d
-			public const int applzoic_last_sean_status_cardView = 2131558797;
+			// aapt resource value: 0x7f0d0185
+			public const int applzoic_last_sean_status_cardView = 2131558789;
 			
-			// aapt resource value: 0x7f0d018b
-			public const int applzoic_name_cardView = 2131558795;
+			// aapt resource value: 0x7f0d0183
+			public const int applzoic_name_cardView = 2131558787;
 			
-			// aapt resource value: 0x7f0d0147
-			public const int attach_button = 2131558727;
+			// aapt resource value: 0x7f0d013f
+			public const int attach_button = 2131558719;
 			
-			// aapt resource value: 0x7f0d0139
-			public const int attached_file = 2131558713;
+			// aapt resource value: 0x7f0d0131
+			public const int attached_file = 2131558705;
 			
-			// aapt resource value: 0x7f0d0158
-			public const int attachmentIcon = 2131558744;
+			// aapt resource value: 0x7f0d0150
+			public const int attachmentIcon = 2131558736;
 			
-			// aapt resource value: 0x7f0d00a9
-			public const int attachment_doc_relative_layout = 2131558569;
+			// aapt resource value: 0x7f0d010c
+			public const int attachment_download_cancel = 2131558668;
 			
-			// aapt resource value: 0x7f0d0114
-			public const int attachment_download_cancel = 2131558676;
-			
-			// aapt resource value: 0x7f0d010f
-			public const int attachment_download_layout = 2131558671;
-			
-			// aapt resource value: 0x7f0d0113
-			public const int attachment_download_progress_layout = 2131558675;
-			
-			// aapt resource value: 0x7f0d0137
-			public const int attachment_layout = 2131558711;
+			// aapt resource value: 0x7f0d0107
+			public const int attachment_download_layout = 2131558663;
 			
 			// aapt resource value: 0x7f0d010b
-			public const int attachment_preview_layout = 2131558667;
+			public const int attachment_download_progress_layout = 2131558667;
 			
-			// aapt resource value: 0x7f0d0116
-			public const int attachment_retry_layout = 2131558678;
+			// aapt resource value: 0x7f0d012f
+			public const int attachment_layout = 2131558703;
 			
-			// aapt resource value: 0x7f0d0117
-			public const int attachment_retry_text = 2131558679;
+			// aapt resource value: 0x7f0d0103
+			public const int attachment_preview_layout = 2131558659;
 			
-			// aapt resource value: 0x7f0d0111
-			public const int attachment_size_text = 2131558673;
+			// aapt resource value: 0x7f0d010e
+			public const int attachment_retry_layout = 2131558670;
 			
-			// aapt resource value: 0x7f0d011b
-			public const int audio_cancel = 2131558683;
+			// aapt resource value: 0x7f0d010f
+			public const int attachment_retry_text = 2131558671;
 			
-			// aapt resource value: 0x7f0d0118
-			public const int audio_mic_imageview = 2131558680;
+			// aapt resource value: 0x7f0d0109
+			public const int attachment_size_text = 2131558665;
 			
-			// aapt resource value: 0x7f0d011a
-			public const int audio_recording_text = 2131558682;
+			// aapt resource value: 0x7f0d0113
+			public const int audio_cancel = 2131558675;
 			
-			// aapt resource value: 0x7f0d011c
-			public const int audio_send = 2131558684;
+			// aapt resource value: 0x7f0d0110
+			public const int audio_mic_imageview = 2131558672;
+			
+			// aapt resource value: 0x7f0d0112
+			public const int audio_recording_text = 2131558674;
+			
+			// aapt resource value: 0x7f0d0114
+			public const int audio_send = 2131558676;
 			
 			// aapt resource value: 0x7f0d0019
 			public const int auto = 2131558425;
@@ -3561,14 +3522,14 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0021
 			public const int bottom = 2131558433;
 			
-			// aapt resource value: 0x7f0d01aa
-			public const int broadcast = 2131558826;
+			// aapt resource value: 0x7f0d01a1
+			public const int broadcast = 2131558817;
 			
 			// aapt resource value: 0x7f0d005d
 			public const int buttonPanel = 2131558493;
 			
-			// aapt resource value: 0x7f0d016e
-			public const int cancel_action = 2131558766;
+			// aapt resource value: 0x7f0d0166
+			public const int cancel_action = 2131558758;
 			
 			// aapt resource value: 0x7f0d0022
 			public const int center = 2131558434;
@@ -3585,44 +3546,44 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0024
 			public const int center_vertical = 2131558436;
 			
-			// aapt resource value: 0x7f0d00cc
-			public const int channelIcon = 2131558604;
+			// aapt resource value: 0x7f0d00c1
+			public const int channelIcon = 2131558593;
 			
-			// aapt resource value: 0x7f0d00d2
-			public const int channelImage = 2131558610;
+			// aapt resource value: 0x7f0d00c7
+			public const int channelImage = 2131558599;
+			
+			// aapt resource value: 0x7f0d00c3
+			public const int channelName = 2131558595;
+			
+			// aapt resource value: 0x7f0d0181
+			public const int channelNameCancel = 2131558785;
+			
+			// aapt resource value: 0x7f0d0182
+			public const int channelNameOk = 2131558786;
+			
+			// aapt resource value: 0x7f0d00d0
+			public const int channel_delete_relativeLayout = 2131558608;
 			
 			// aapt resource value: 0x7f0d00ce
-			public const int channelName = 2131558606;
+			public const int channel_exit_relativeLayout = 2131558606;
 			
-			// aapt resource value: 0x7f0d0189
-			public const int channelNameCancel = 2131558793;
+			// aapt resource value: 0x7f0d00a2
+			public const int channel_message = 2131558562;
 			
-			// aapt resource value: 0x7f0d018a
-			public const int channelNameOk = 2131558794;
+			// aapt resource value: 0x7f0d0115
+			public const int chat_location = 2131558677;
 			
-			// aapt resource value: 0x7f0d00dc
-			public const int channel_delete_relativeLayout = 2131558620;
+			// aapt resource value: 0x7f0d0120
+			public const int chat_screen_date = 2131558688;
 			
-			// aapt resource value: 0x7f0d00da
-			public const int channel_exit_relativeLayout = 2131558618;
-			
-			// aapt resource value: 0x7f0d00a1
-			public const int channel_message = 2131558561;
-			
-			// aapt resource value: 0x7f0d011d
-			public const int chat_location = 2131558685;
-			
-			// aapt resource value: 0x7f0d0128
-			public const int chat_screen_date = 2131558696;
-			
-			// aapt resource value: 0x7f0d0127
-			public const int chat_screen_day = 2131558695;
+			// aapt resource value: 0x7f0d011f
+			public const int chat_screen_day = 2131558687;
 			
 			// aapt resource value: 0x7f0d006d
 			public const int checkbox = 2131558509;
 			
-			// aapt resource value: 0x7f0d0176
-			public const int chronometer = 2131558774;
+			// aapt resource value: 0x7f0d016e
+			public const int chronometer = 2131558766;
 			
 			// aapt resource value: 0x7f0d002d
 			public const int clip_horizontal = 2131558445;
@@ -3630,77 +3591,77 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d002e
 			public const int clip_vertical = 2131558446;
 			
-			// aapt resource value: 0x7f0d013a
-			public const int close_attachment_layout = 2131558714;
+			// aapt resource value: 0x7f0d0132
+			public const int close_attachment_layout = 2131558706;
 			
 			// aapt resource value: 0x7f0d0047
 			public const int collapseActionView = 2131558471;
 			
-			// aapt resource value: 0x7f0d00b7
-			public const int contactImage = 2131558583;
+			// aapt resource value: 0x7f0d00ac
+			public const int contactImage = 2131558572;
 			
-			// aapt resource value: 0x7f0d00e6
-			public const int contactNumberTextView = 2131558630;
+			// aapt resource value: 0x7f0d00da
+			public const int contactNumberTextView = 2131558618;
 			
-			// aapt resource value: 0x7f0d0126
-			public const int contact_share_add_btn = 2131558694;
+			// aapt resource value: 0x7f0d011e
+			public const int contact_share_add_btn = 2131558686;
 			
-			// aapt resource value: 0x7f0d0124
-			public const int contact_share_emailId = 2131558692;
+			// aapt resource value: 0x7f0d011c
+			public const int contact_share_emailId = 2131558684;
 			
-			// aapt resource value: 0x7f0d0120
-			public const int contact_share_image = 2131558688;
+			// aapt resource value: 0x7f0d0118
+			public const int contact_share_image = 2131558680;
 			
-			// aapt resource value: 0x7f0d011f
-			public const int contact_share_layout = 2131558687;
+			// aapt resource value: 0x7f0d0117
+			public const int contact_share_layout = 2131558679;
 			
-			// aapt resource value: 0x7f0d0122
-			public const int contact_share_tv_name = 2131558690;
+			// aapt resource value: 0x7f0d011a
+			public const int contact_share_tv_name = 2131558682;
 			
-			// aapt resource value: 0x7f0d0123
-			public const int contact_share_tv_no = 2131558691;
+			// aapt resource value: 0x7f0d011b
+			public const int contact_share_tv_no = 2131558683;
 			
 			// aapt resource value: 0x7f0d0060
 			public const int contentPanel = 2131558496;
 			
-			// aapt resource value: 0x7f0d0169
-			public const int content_frame = 2131558761;
+			// aapt resource value: 0x7f0d0161
+			public const int content_frame = 2131558753;
 			
-			// aapt resource value: 0x7f0d0130
-			public const int contextFrameLayout = 2131558704;
+			// aapt resource value: 0x7f0d0128
+			public const int contextFrameLayout = 2131558696;
 			
-			// aapt resource value: 0x7f0d0184
-			public const int conversation_fragment_pane = 2131558788;
+			// aapt resource value: 0x7f0d017c
+			public const int conversation_fragment_pane = 2131558780;
 			
-			// aapt resource value: 0x7f0d0148
-			public const int conversation_message = 2131558728;
+			// aapt resource value: 0x7f0d0140
+			public const int conversation_message = 2131558720;
 			
-			// aapt resource value: 0x7f0d00ea
-			public const int conversation_scheduler = 2131558634;
+			// aapt resource value: 0x7f0d00de
+			public const int conversation_scheduler = 2131558622;
 			
-			// aapt resource value: 0x7f0d0149
-			public const int conversation_send = 2131558729;
+			// aapt resource value: 0x7f0d0141
+			public const int conversation_send = 2131558721;
 			
-			// aapt resource value: 0x7f0d01a1
-			public const int conversations = 2131558817;
+			// aapt resource value: 0x7f0d0197
+			public const int conversations = 2131558807;
 			
-			// aapt resource value: 0x7f0d0153
-			public const int createdAtTime = 2131558739;
+			// aapt resource value: 0x7f0d014b
+			public const int createdAtTime = 2131558731;
 			
-			// aapt resource value: 0x7f0d00d3
-			public const int created_by = 2131558611;
+			// aapt resource value: 0x7f0d00c8
+			public const int created_by = 2131558600;
 			
-			// aapt resource value: 0x7f0d00f1
-			public const int cropImageView = 2131558641;
+			// aapt resource value: 0x7f0d00e5
+			public const int cropImageView = 2131558629;
 			
-			// aapt resource value: 0x7f0d019b
-			public const int crop_image_menu_crop = 2131558811;
+			// aapt resource value: 0x7f0d0193
+			public const int crop_image_menu_crop = 2131558803;
 			
-			// aapt resource value: 0x7f0d0199
-			public const int crop_image_menu_rotate_left = 2131558809;
+			// aapt resource value: 0x7f0d0191
+			public const int crop_image_menu_rotate_left = 2131558801;
 			
-			// aapt resource value: 0x7f0d019a
-			public const int crop_image_menu_rotate_right = 2131558810;
+			// aapt resource value: 0x7f0d0192
+			public const int crop_image_menu_rotate_right = 2131558802;
 			
 			// aapt resource value: 0x7f0d0067
 			public const int custom = 2131558503;
@@ -3717,80 +3678,71 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0059
 			public const int default_activity_button = 2131558489;
 			
-			// aapt resource value: 0x7f0d01a5
-			public const int deleteConversation = 2131558821;
+			// aapt resource value: 0x7f0d019b
+			public const int deleteConversation = 2131558811;
 			
-			// aapt resource value: 0x7f0d00dd
-			public const int delete_channel_button = 2131558621;
+			// aapt resource value: 0x7f0d00d1
+			public const int delete_channel_button = 2131558609;
 			
-			// aapt resource value: 0x7f0d00f8
-			public const int design_bottom_sheet = 2131558648;
+			// aapt resource value: 0x7f0d00ec
+			public const int design_bottom_sheet = 2131558636;
 			
-			// aapt resource value: 0x7f0d00ff
-			public const int design_menu_item_action_area = 2131558655;
+			// aapt resource value: 0x7f0d00f3
+			public const int design_menu_item_action_area = 2131558643;
 			
-			// aapt resource value: 0x7f0d00fe
-			public const int design_menu_item_action_area_stub = 2131558654;
+			// aapt resource value: 0x7f0d00f2
+			public const int design_menu_item_action_area_stub = 2131558642;
 			
-			// aapt resource value: 0x7f0d00fd
-			public const int design_menu_item_text = 2131558653;
+			// aapt resource value: 0x7f0d00f1
+			public const int design_menu_item_text = 2131558641;
 			
-			// aapt resource value: 0x7f0d00fc
-			public const int design_navigation_view = 2131558652;
+			// aapt resource value: 0x7f0d00f0
+			public const int design_navigation_view = 2131558640;
 			
-			// aapt resource value: 0x7f0d01a3
-			public const int dial = 2131558819;
+			// aapt resource value: 0x7f0d0199
+			public const int dial = 2131558809;
 			
 			// aapt resource value: 0x7f0d003c
 			public const int disableHome = 2131558460;
 			
-			// aapt resource value: 0x7f0d00e7
-			public const int displayName = 2131558631;
+			// aapt resource value: 0x7f0d00db
+			public const int displayName = 2131558619;
 			
-			// aapt resource value: 0x7f0d00e4
-			public const int displayNameLayout = 2131558628;
+			// aapt resource value: 0x7f0d00d8
+			public const int displayNameLayout = 2131558616;
 			
-			// aapt resource value: 0x7f0d0125
-			public const int divider = 2131558693;
+			// aapt resource value: 0x7f0d011d
+			public const int divider = 2131558685;
 			
-			// aapt resource value: 0x7f0d00b3
-			public const int doc_icon = 2131558579;
+			// aapt resource value: 0x7f0d0108
+			public const int download_image = 2131558664;
 			
-			// aapt resource value: 0x7f0d00b1
-			public const int download_calcle_icon = 2131558577;
-			
-			// aapt resource value: 0x7f0d00aa
-			public const int download_doc_relative_layout = 2131558570;
-			
-			// aapt resource value: 0x7f0d0110
-			public const int download_image = 2131558672;
-			
-			// aapt resource value: 0x7f0d0197
-			public const int edit_channel_name = 2131558807;
+			// aapt resource value: 0x7f0d018f
+			public const int edit_channel_name = 2131558799;
 			
 			// aapt resource value: 0x7f0d0078
 			public const int edit_query = 2131558520;
 			
-			// aapt resource value: 0x7f0d0145
-			public const int edit_text_linear_layout = 2131558725;
+			// aapt resource value: 0x7f0d013d
+			public const int edit_text_linear_layout = 2131558717;
 			
-			// aapt resource value: 0x7f0d0190
-			public const int email = 2131558800;
+			// aapt resource value: 0x7f0d0188
+			public const int email = 2131558792;
 			
-			// aapt resource value: 0x7f0d014c
-			public const int emojicons_frame_layout = 2131558732;
+			// aapt resource value: 0x7f0d0144
+			public const int emojicons_frame_layout = 2131558724;
 			
-			// aapt resource value: 0x7f0d0146
-			public const int emoticons_btn = 2131558726;
+			// aapt resource value: 0x7f0d013e
+			public const int emoticons_btn = 2131558718;
 			
-			// aapt resource value: 0x7f0d0136
-			public const int emptyConversation = 2131558710;
+			// aapt resource value: 0x7f0d012e
+			public const int emptyConversation = 2131558702;
 			
 			// aapt resource value: 0x7f0d0025
 			public const int end = 2131558437;
 			
-			// aapt resource value: 0x7f0d017f
-			public const int end_padder = 2131558783;
+			// aapt resource value: 0x7f0d0177
+			public const int end_padder = 2131558775;
 			
 			// aapt resource value: 0x7f0d001c
 			public const int enterAlways = 2131558428;
@@ -3801,8 +3753,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d001e
 			public const int exitUntilCollapsed = 2131558430;
 			
-			// aapt resource value: 0x7f0d00db
-			public const int exit_channel = 2131558619;
+			// aapt resource value: 0x7f0d00cf
+			public const int exit_channel = 2131558607;
 			
 			// aapt resource value: 0x7f0d0057
 			public const int expand_activities_button = 2131558487;
@@ -3810,11 +3762,11 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d006c
 			public const int expanded_menu = 2131558508;
 			
-			// aapt resource value: 0x7f0d013b
-			public const int extended_sending_option_layout = 2131558715;
+			// aapt resource value: 0x7f0d0133
+			public const int extended_sending_option_layout = 2131558707;
 			
-			// aapt resource value: 0x7f0d0135
-			public const int fab_start_new = 2131558709;
+			// aapt resource value: 0x7f0d012d
+			public const int fab_start_new = 2131558701;
 			
 			// aapt resource value: 0x7f0d002f
 			public const int fill = 2131558447;
@@ -3831,23 +3783,26 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0033
 			public const int @fixed = 2131558451;
 			
-			// aapt resource value: 0x7f0d00cf
-			public const int footerAd = 2131558607;
+			// aapt resource value: 0x7f0d00c4
+			public const int footerAd = 2131558596;
 			
-			// aapt resource value: 0x7f0d0195
-			public const int forward = 2131558805;
+			// aapt resource value: 0x7f0d018d
+			public const int forward = 2131558797;
 			
-			// aapt resource value: 0x7f0d0129
-			public const int full_screen_image = 2131558697;
+			// aapt resource value: 0x7f0d0121
+			public const int full_screen_image = 2131558689;
 			
-			// aapt resource value: 0x7f0d012a
-			public const int full_screen_progress_bar = 2131558698;
+			// aapt resource value: 0x7f0d0122
+			public const int full_screen_progress_bar = 2131558690;
 			
-			// aapt resource value: 0x7f0d0105
-			public const int galleryImageView = 2131558661;
+			// aapt resource value: 0x7f0d00fd
+			public const int galleryImageView = 2131558653;
 			
-			// aapt resource value: 0x7f0d010a
-			public const int grid = 2131558666;
+			// aapt resource value: 0x7f0d0102
+			public const int grid = 2131558658;
+			
+			// aapt resource value: 0x7f0d00cb
+			public const int groupParticipantsTexView = 2131558603;
 			
 			// aapt resource value: 0x7f0d000a
 			public const int home = 2131558410;
@@ -3861,8 +3816,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d005b
 			public const int icon = 2131558491;
 			
-			// aapt resource value: 0x7f0d017b
-			public const int icon_group = 2131558779;
+			// aapt resource value: 0x7f0d0173
+			public const int icon_group = 2131558771;
 			
 			// aapt resource value: 0x7f0d0016
 			public const int icon_only = 2131558422;
@@ -3873,41 +3828,41 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0058
 			public const int image = 2131558488;
 			
-			// aapt resource value: 0x7f0d012d
-			public const int imgIcon = 2131558701;
+			// aapt resource value: 0x7f0d0125
+			public const int imgIcon = 2131558693;
 			
-			// aapt resource value: 0x7f0d0144
-			public const int individual_message_send_layout = 2131558724;
+			// aapt resource value: 0x7f0d013c
+			public const int individual_message_send_layout = 2131558716;
 			
-			// aapt resource value: 0x7f0d0177
-			public const int info = 2131558775;
+			// aapt resource value: 0x7f0d016f
+			public const int info = 2131558767;
 			
-			// aapt resource value: 0x7f0d014e
-			public const int info_broadcast = 2131558734;
+			// aapt resource value: 0x7f0d0146
+			public const int info_broadcast = 2131558726;
 			
-			// aapt resource value: 0x7f0d0143
-			public const int isTyping = 2131558723;
+			// aapt resource value: 0x7f0d013b
+			public const int isTyping = 2131558715;
 			
 			// aapt resource value: 0x7f0d0003
 			public const int item_touch_helper_previous_elevation = 2131558403;
 			
-			// aapt resource value: 0x7f0d00f6
-			public const int largeLabel = 2131558646;
+			// aapt resource value: 0x7f0d00ea
+			public const int largeLabel = 2131558634;
 			
-			// aapt resource value: 0x7f0d00e8
-			public const int lastSeenAtTextView = 2131558632;
+			// aapt resource value: 0x7f0d00dc
+			public const int lastSeenAtTextView = 2131558620;
 			
-			// aapt resource value: 0x7f0d0102
-			public const int launch_chat_list = 2131558658;
+			// aapt resource value: 0x7f0d00fa
+			public const int launch_chat_list = 2131558650;
 			
-			// aapt resource value: 0x7f0d0103
-			public const int launch_one_to_one_chat = 2131558659;
+			// aapt resource value: 0x7f0d00fb
+			public const int launch_one_to_one_chat = 2131558651;
 			
-			// aapt resource value: 0x7f0d00e2
-			public const int layout_child_activity = 2131558626;
+			// aapt resource value: 0x7f0d00d6
+			public const int layout_child_activity = 2131558614;
 			
-			// aapt resource value: 0x7f0d0150
-			public const int layout_online = 2131558736;
+			// aapt resource value: 0x7f0d0148
+			public const int layout_online = 2131558728;
 			
 			// aapt resource value: 0x7f0d0027
 			public const int left = 2131558439;
@@ -3915,17 +3870,17 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d001b
 			public const int light = 2131558427;
 			
-			// aapt resource value: 0x7f0d017c
-			public const int line1 = 2131558780;
+			// aapt resource value: 0x7f0d0174
+			public const int line1 = 2131558772;
 			
-			// aapt resource value: 0x7f0d017d
-			public const int line3 = 2131558781;
+			// aapt resource value: 0x7f0d0175
+			public const int line3 = 2131558773;
 			
-			// aapt resource value: 0x7f0d0188
-			public const int linearLayout = 2131558792;
+			// aapt resource value: 0x7f0d0180
+			public const int linearLayout = 2131558784;
 			
-			// aapt resource value: 0x7f0d00d8
-			public const int listCardView = 2131558616;
+			// aapt resource value: 0x7f0d00cc
+			public const int listCardView = 2131558604;
 			
 			// aapt resource value: 0x7f0d003a
 			public const int listMode = 2131558458;
@@ -3933,68 +3888,62 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d005a
 			public const int list_item = 2131558490;
 			
-			// aapt resource value: 0x7f0d014f
-			public const int load_more_progressbar = 2131558735;
+			// aapt resource value: 0x7f0d0147
+			public const int load_more_progressbar = 2131558727;
 			
 			// aapt resource value: 0x7f0d0088
 			public const int locationIcon = 2131558536;
 			
+			// aapt resource value: 0x7f0d00fc
+			public const int logout = 2131558652;
+			
+			// aapt resource value: 0x7f0d00cd
+			public const int mainList = 2131558605;
+			
 			// aapt resource value: 0x7f0d0104
-			public const int logout = 2131558660;
-			
-			// aapt resource value: 0x7f0d00d9
-			public const int mainList = 2131558617;
-			
-			// aapt resource value: 0x7f0d010c
-			public const int main_attachment_view = 2131558668;
+			public const int main_attachment_view = 2131558660;
 			
 			// aapt resource value: 0x7f0d0086
 			public const int map = 2131558534;
 			
-			// aapt resource value: 0x7f0d0194
-			public const int masked = 2131558804;
+			// aapt resource value: 0x7f0d018c
+			public const int masked = 2131558796;
 			
-			// aapt resource value: 0x7f0d0170
-			public const int media_actions = 2131558768;
+			// aapt resource value: 0x7f0d0168
+			public const int media_actions = 2131558760;
 			
-			// aapt resource value: 0x7f0d009f
-			public const int media_auto_download_on_celular_checkbox = 2131558559;
+			// aapt resource value: 0x7f0d0130
+			public const int media_container = 2131558704;
 			
-			// aapt resource value: 0x7f0d009e
-			public const int media_auto_download_on_wifi_checkbox = 2131558558;
+			// aapt resource value: 0x7f0d010d
+			public const int media_download_progress_bar = 2131558669;
 			
-			// aapt resource value: 0x7f0d0138
-			public const int media_container = 2131558712;
+			// aapt resource value: 0x7f0d010a
+			public const int media_upload_progress_bar = 2131558666;
 			
-			// aapt resource value: 0x7f0d0115
-			public const int media_download_progress_bar = 2131558677;
+			// aapt resource value: 0x7f0d0196
+			public const int menu_search = 2131558806;
 			
-			// aapt resource value: 0x7f0d0112
-			public const int media_upload_progress_bar = 2131558674;
+			// aapt resource value: 0x7f0d0151
+			public const int message = 2131558737;
 			
-			// aapt resource value: 0x7f0d019e
-			public const int menu_search = 2131558814;
+			// aapt resource value: 0x7f0d015a
+			public const int messageLayout = 2131558746;
 			
-			// aapt resource value: 0x7f0d0159
-			public const int message = 2131558745;
+			// aapt resource value: 0x7f0d012b
+			public const int messageList = 2131558699;
 			
-			// aapt resource value: 0x7f0d0162
-			public const int messageLayout = 2131558754;
+			// aapt resource value: 0x7f0d00b5
+			public const int messageText = 2131558581;
 			
-			// aapt resource value: 0x7f0d0133
-			public const int messageList = 2131558707;
+			// aapt resource value: 0x7f0d015e
+			public const int messageTextInsideLayout = 2131558750;
 			
-			// aapt resource value: 0x7f0d00c0
-			public const int messageText = 2131558592;
+			// aapt resource value: 0x7f0d015b
+			public const int messageTextLayout = 2131558747;
 			
-			// aapt resource value: 0x7f0d0166
-			public const int messageTextInsideLayout = 2131558758;
-			
-			// aapt resource value: 0x7f0d0163
-			public const int messageTextLayout = 2131558755;
-			
-			// aapt resource value: 0x7f0d0156
-			public const int messageUnread = 2131558742;
+			// aapt resource value: 0x7f0d014e
+			public const int messageUnread = 2131558734;
 			
 			// aapt resource value: 0x7f0d0045
 			public const int middle = 2131558469;
@@ -4002,80 +3951,77 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0032
 			public const int mini = 2131558450;
 			
-			// aapt resource value: 0x7f0d015f
-			public const int mobicom_attachment_cancel_btn = 2131558751;
+			// aapt resource value: 0x7f0d0157
+			public const int mobicom_attachment_cancel_btn = 2131558743;
 			
-			// aapt resource value: 0x7f0d0108
-			public const int mobicom_attachment_delete_btn = 2131558664;
+			// aapt resource value: 0x7f0d0100
+			public const int mobicom_attachment_delete_btn = 2131558656;
 			
-			// aapt resource value: 0x7f0d015e
-			public const int mobicom_attachment_edit_text = 2131558750;
+			// aapt resource value: 0x7f0d0156
+			public const int mobicom_attachment_edit_text = 2131558742;
 			
-			// aapt resource value: 0x7f0d0107
-			public const int mobicom_attachment_file_name = 2131558663;
+			// aapt resource value: 0x7f0d00ff
+			public const int mobicom_attachment_file_name = 2131558655;
 			
-			// aapt resource value: 0x7f0d0109
-			public const int mobicom_attachment_file_size = 2131558665;
+			// aapt resource value: 0x7f0d0101
+			public const int mobicom_attachment_file_size = 2131558657;
 			
-			// aapt resource value: 0x7f0d015c
-			public const int mobicom_attachment_grid_View = 2131558748;
+			// aapt resource value: 0x7f0d0154
+			public const int mobicom_attachment_grid_View = 2131558740;
 			
-			// aapt resource value: 0x7f0d0106
-			public const int mobicom_attachment_image = 2131558662;
+			// aapt resource value: 0x7f0d00fe
+			public const int mobicom_attachment_image = 2131558654;
 			
-			// aapt resource value: 0x7f0d0160
-			public const int mobicom_attachment_send_btn = 2131558752;
+			// aapt resource value: 0x7f0d0158
+			public const int mobicom_attachment_send_btn = 2131558744;
 			
-			// aapt resource value: 0x7f0d012b
-			public const int mobicom_multimedia_icon = 2131558699;
+			// aapt resource value: 0x7f0d0123
+			public const int mobicom_multimedia_icon = 2131558691;
 			
-			// aapt resource value: 0x7f0d0161
-			public const int mobicom_multimedia_options = 2131558753;
+			// aapt resource value: 0x7f0d0159
+			public const int mobicom_multimedia_options = 2131558745;
 			
-			// aapt resource value: 0x7f0d014d
-			public const int mobicom_multimedia_options1 = 2131558733;
+			// aapt resource value: 0x7f0d0145
+			public const int mobicom_multimedia_options1 = 2131558725;
 			
-			// aapt resource value: 0x7f0d012c
-			public const int mobicom_multimedia_text = 2131558700;
+			// aapt resource value: 0x7f0d0124
+			public const int mobicom_multimedia_text = 2131558692;
 			
-			// aapt resource value: 0x7f0d015d
-			public const int multi_attachment_heading_layout = 2131558749;
+			// aapt resource value: 0x7f0d0155
+			public const int multi_attachment_heading_layout = 2131558741;
 			
 			// aapt resource value: 0x7f0d0035
 			public const int multiply = 2131558453;
 			
-			// aapt resource value: 0x7f0d01ab
-			public const int muteGroup = 2131558827;
+			// aapt resource value: 0x7f0d01a2
+			public const int muteGroup = 2131558818;
 			
-			// aapt resource value: 0x7f0d00cb
-			public const int my_toolbar = 2131558603;
+			// aapt resource value: 0x7f0d00c0
+			public const int my_toolbar = 2131558592;
 			
-			// aapt resource value: 0x7f0d0164
-			public const int nameTextLayout = 2131558756;
+			// aapt resource value: 0x7f0d015c
+			public const int nameTextLayout = 2131558748;
 			
-			// aapt resource value: 0x7f0d0165
-			public const int name_textView = 2131558757;
+			// aapt resource value: 0x7f0d015d
+			public const int name_textView = 2131558749;
 			
-			// aapt resource value: 0x7f0d0151
-			public const int name_time = 2131558737;
+			// aapt resource value: 0x7f0d0149
+			public const int name_time = 2131558729;
 			
-			// aapt resource value: 0x7f0d0168
-			public const int navigationDrawer = 2131558760;
+			// aapt resource value: 0x7f0d0160
+			public const int navigationDrawer = 2131558752;
 			
-			// aapt resource value: 0x7f0d00fb
-			public const int navigation_header_container = 2131558651;
+			// aapt resource value: 0x7f0d00ef
+			public const int navigation_header_container = 2131558639;
 			
 			// aapt resource value: 0x7f0d0049
 			public const int never = 2131558473;
 			
-			// aapt resource value: 0x7f0d0187
-			public const int newChannelName = 2131558791;
+			// aapt resource value: 0x7f0d017f
+			public const int newChannelName = 2131558783;
 			
-			// aapt resource value: 0x7f0d0134
-			public const int noConversations = 2131558708;
-			
-			// aapt resource value: 0x7f0d00d7
-			public const int noOfUsers = 2131558615;
+			// aapt resource value: 0x7f0d012c
+			public const int noConversations = 2131558700;
 			
 			// aapt resource value: 0x7f0d0010
 			public const int none = 2131558416;
@@ -4083,14 +4029,14 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0011
 			public const int normal = 2131558417;
 			
-			// aapt resource value: 0x7f0d0179
-			public const int notification_background = 2131558777;
+			// aapt resource value: 0x7f0d0171
+			public const int notification_background = 2131558769;
 			
-			// aapt resource value: 0x7f0d0173
-			public const int notification_main_column = 2131558771;
+			// aapt resource value: 0x7f0d016b
+			public const int notification_main_column = 2131558763;
 			
-			// aapt resource value: 0x7f0d0172
-			public const int notification_main_column_container = 2131558770;
+			// aapt resource value: 0x7f0d016a
+			public const int notification_main_column_container = 2131558762;
 			
 			// aapt resource value: 0x7f0d004b
 			public const int off = 2131558475;
@@ -4101,8 +4047,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d004d
 			public const int onTouch = 2131558477;
 			
-			// aapt resource value: 0x7f0d00e3
-			public const int onlineTextView = 2131558627;
+			// aapt resource value: 0x7f0d00d7
+			public const int onlineTextView = 2131558615;
 			
 			// aapt resource value: 0x7f0d0051
 			public const int oval = 2131558481;
@@ -4116,32 +4062,32 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d005f
 			public const int parentPanel = 2131558495;
 			
-			// aapt resource value: 0x7f0d00d6
-			public const int participants = 2131558614;
+			// aapt resource value: 0x7f0d00ca
+			public const int participantsCardView = 2131558602;
 			
-			// aapt resource value: 0x7f0d00d5
-			public const int participantsCardView = 2131558613;
+			// aapt resource value: 0x7f0d00f8
+			public const int password_input = 2131558648;
 			
-			// aapt resource value: 0x7f0d0192
-			public const int phone = 2131558802;
+			// aapt resource value: 0x7f0d018a
+			public const int phone = 2131558794;
 			
 			// aapt resource value: 0x7f0d002c
 			public const int pin = 2131558444;
 			
-			// aapt resource value: 0x7f0d010d
-			public const int preview = 2131558669;
-			
-			// aapt resource value: 0x7f0d00a6
-			public const int priceTitleTextView = 2131558566;
+			// aapt resource value: 0x7f0d0105
+			public const int preview = 2131558661;
 			
 			// aapt resource value: 0x7f0d00a7
-			public const int priceValueTextview = 2131558567;
+			public const int priceTitleTextView = 2131558567;
 			
-			// aapt resource value: 0x7f0d00a2
-			public const int productImage = 2131558562;
+			// aapt resource value: 0x7f0d00a8
+			public const int priceValueTextview = 2131558568;
 			
-			// aapt resource value: 0x7f0d00b5
-			public const int profile_image_relative_layout = 2131558581;
+			// aapt resource value: 0x7f0d00a3
+			public const int productImage = 2131558563;
+			
+			// aapt resource value: 0x7f0d00aa
+			public const int profile_image_relative_layout = 2131558570;
 			
 			// aapt resource value: 0x7f0d000b
 			public const int progress_circular = 2131558411;
@@ -4149,14 +4095,14 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d000c
 			public const int progress_horizontal = 2131558412;
 			
-			// aapt resource value: 0x7f0d00a4
-			public const int qtyTitleTextView = 2131558564;
-			
 			// aapt resource value: 0x7f0d00a5
-			public const int qtyValueTextView = 2131558565;
+			public const int qtyTitleTextView = 2131558565;
 			
-			// aapt resource value: 0x7f0d0183
-			public const int quick_conversation_fragment_pane = 2131558787;
+			// aapt resource value: 0x7f0d00a6
+			public const int qtyValueTextView = 2131558566;
+			
+			// aapt resource value: 0x7f0d017b
+			public const int quick_conversation_fragment_pane = 2131558779;
 			
 			// aapt resource value: 0x7f0d006f
 			public const int radio = 2131558511;
@@ -4164,50 +4110,47 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0052
 			public const int rectangle = 2131558482;
 			
-			// aapt resource value: 0x7f0d01a4
-			public const int refresh = 2131558820;
+			// aapt resource value: 0x7f0d019a
+			public const int refresh = 2131558810;
 			
-			// aapt resource value: 0x7f0d0121
-			public const int relativeLayout = 2131558689;
+			// aapt resource value: 0x7f0d0119
+			public const int relativeLayout = 2131558681;
 			
-			// aapt resource value: 0x7f0d00de
-			public const int result = 2131558622;
-			
-			// aapt resource value: 0x7f0d00ad
-			public const int retry_doc_relative_layout = 2131558573;
+			// aapt resource value: 0x7f0d00d2
+			public const int result = 2131558610;
 			
 			// aapt resource value: 0x7f0d0028
 			public const int right = 2131558440;
 			
-			// aapt resource value: 0x7f0d0178
-			public const int right_icon = 2131558776;
+			// aapt resource value: 0x7f0d0170
+			public const int right_icon = 2131558768;
 			
-			// aapt resource value: 0x7f0d0174
-			public const int right_side = 2131558772;
+			// aapt resource value: 0x7f0d016c
+			public const int right_side = 2131558764;
 			
 			// aapt resource value: 0x7f0d0012
 			public const int satellite = 2131558418;
 			
-			// aapt resource value: 0x7f0d013f
-			public const int scheduleOption = 2131558719;
+			// aapt resource value: 0x7f0d0137
+			public const int scheduleOption = 2131558711;
 			
-			// aapt resource value: 0x7f0d013e
-			public const int scheduleOptionFrame = 2131558718;
+			// aapt resource value: 0x7f0d0136
+			public const int scheduleOptionFrame = 2131558710;
 			
-			// aapt resource value: 0x7f0d00eb
-			public const int schedule_header = 2131558635;
+			// aapt resource value: 0x7f0d00df
+			public const int schedule_header = 2131558623;
 			
-			// aapt resource value: 0x7f0d00ee
-			public const int scheduledDate = 2131558638;
+			// aapt resource value: 0x7f0d00e2
+			public const int scheduledDate = 2131558626;
 			
-			// aapt resource value: 0x7f0d00ed
-			public const int scheduledDateText = 2131558637;
+			// aapt resource value: 0x7f0d00e1
+			public const int scheduledDateText = 2131558625;
 			
-			// aapt resource value: 0x7f0d00f0
-			public const int scheduledTime = 2131558640;
+			// aapt resource value: 0x7f0d00e4
+			public const int scheduledTime = 2131558628;
 			
-			// aapt resource value: 0x7f0d00ef
-			public const int scheduledTimeText = 2131558639;
+			// aapt resource value: 0x7f0d00e3
+			public const int scheduledTimeText = 2131558627;
 			
 			// aapt resource value: 0x7f0d0036
 			public const int screen = 2131558454;
@@ -4257,38 +4200,38 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0083
 			public const int search_voice_btn = 2131558531;
 			
-			// aapt resource value: 0x7f0d0140
-			public const int secretMessageSpinnerFrame = 2131558720;
+			// aapt resource value: 0x7f0d0138
+			public const int secretMessageSpinnerFrame = 2131558712;
 			
-			// aapt resource value: 0x7f0d0141
-			public const int secret_message_spinner = 2131558721;
+			// aapt resource value: 0x7f0d0139
+			public const int secret_message_spinner = 2131558713;
 			
-			// aapt resource value: 0x7f0d0101
-			public const int section_label = 2131558657;
+			// aapt resource value: 0x7f0d00f5
+			public const int section_label = 2131558645;
 			
 			// aapt resource value: 0x7f0d0084
 			public const int select_dialog_listview = 2131558532;
 			
-			// aapt resource value: 0x7f0d00ec
-			public const int selectionRequest = 2131558636;
+			// aapt resource value: 0x7f0d00e0
+			public const int selectionRequest = 2131558624;
 			
-			// aapt resource value: 0x7f0d015b
-			public const int selfDestruct = 2131558747;
+			// aapt resource value: 0x7f0d0153
+			public const int selfDestruct = 2131558739;
 			
 			// aapt resource value: 0x7f0d0087
 			public const int sendLocation = 2131558535;
 			
-			// aapt resource value: 0x7f0d013c
-			public const int sendTypeFrame = 2131558716;
+			// aapt resource value: 0x7f0d0134
+			public const int sendTypeFrame = 2131558708;
 			
-			// aapt resource value: 0x7f0d013d
-			public const int sendTypeSpinner = 2131558717;
+			// aapt resource value: 0x7f0d0135
+			public const int sendTypeSpinner = 2131558709;
 			
-			// aapt resource value: 0x7f0d0154
-			public const int sentOrReceivedIcon = 2131558740;
+			// aapt resource value: 0x7f0d014c
+			public const int sentOrReceivedIcon = 2131558732;
 			
-			// aapt resource value: 0x7f0d0196
-			public const int shareOptions = 2131558806;
+			// aapt resource value: 0x7f0d018e
+			public const int shareOptions = 2131558798;
 			
 			// aapt resource value: 0x7f0d006e
 			public const int shortcut = 2131558510;
@@ -4302,38 +4245,35 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0040
 			public const int showTitle = 2131558464;
 			
-			// aapt resource value: 0x7f0d0182
-			public const int sliding_pane_layout = 2131558786;
-			
-			// aapt resource value: 0x7f0d0152
-			public const int smReceivers = 2131558738;
-			
-			// aapt resource value: 0x7f0d0157
-			public const int smTime = 2131558743;
-			
-			// aapt resource value: 0x7f0d00f5
-			public const int smallLabel = 2131558645;
-			
-			// aapt resource value: 0x7f0d00fa
-			public const int snackbar_action = 2131558650;
-			
 			// aapt resource value: 0x7f0d00f9
-			public const int snackbar_text = 2131558649;
+			public const int sign_in_btn = 2131558649;
+			
+			// aapt resource value: 0x7f0d017a
+			public const int sliding_pane_layout = 2131558778;
+			
+			// aapt resource value: 0x7f0d014a
+			public const int smReceivers = 2131558730;
+			
+			// aapt resource value: 0x7f0d014f
+			public const int smTime = 2131558735;
+			
+			// aapt resource value: 0x7f0d00e9
+			public const int smallLabel = 2131558633;
+			
+			// aapt resource value: 0x7f0d00ee
+			public const int snackbar_action = 2131558638;
+			
+			// aapt resource value: 0x7f0d00ed
+			public const int snackbar_text = 2131558637;
 			
 			// aapt resource value: 0x7f0d0020
 			public const int snap = 2131558432;
 			
-			// aapt resource value: 0x7f0d019f
-			public const int sort_the_contact__by_latest = 2131558815;
-			
-			// aapt resource value: 0x7f0d01a0
-			public const int sort_the_contact_by_lastSeenAt = 2131558816;
-			
 			// aapt resource value: 0x7f0d005e
 			public const int spacer = 2131558494;
 			
-			// aapt resource value: 0x7f0d0131
-			public const int spinner_show = 2131558705;
+			// aapt resource value: 0x7f0d0129
+			public const int spinner_show = 2131558697;
 			
 			// aapt resource value: 0x7f0d000d
 			public const int split_action_bar = 2131558413;
@@ -4353,26 +4293,26 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0029
 			public const int start = 2131558441;
 			
-			// aapt resource value: 0x7f0d01a2
-			public const int start_new = 2131558818;
+			// aapt resource value: 0x7f0d0198
+			public const int start_new = 2131558808;
 			
-			// aapt resource value: 0x7f0d011e
-			public const int static_mapview = 2131558686;
+			// aapt resource value: 0x7f0d0116
+			public const int static_mapview = 2131558678;
 			
-			// aapt resource value: 0x7f0d0155
-			public const int status = 2131558741;
+			// aapt resource value: 0x7f0d014d
+			public const int status = 2131558733;
 			
-			// aapt resource value: 0x7f0d016f
-			public const int status_bar_latest_event_content = 2131558767;
+			// aapt resource value: 0x7f0d0167
+			public const int status_bar_latest_event_content = 2131558759;
 			
 			// aapt resource value: 0x7f0d0090
 			public const int status_edit_btn = 2131558544;
 			
-			// aapt resource value: 0x7f0d0142
-			public const int status_message_layout = 2131558722;
+			// aapt resource value: 0x7f0d013a
+			public const int status_message_layout = 2131558714;
 			
-			// aapt resource value: 0x7f0d00a3
-			public const int subTitle = 2131558563;
+			// aapt resource value: 0x7f0d00a4
+			public const int subTitle = 2131558564;
 			
 			// aapt resource value: 0x7f0d0070
 			public const int submenuarrow = 2131558512;
@@ -4380,11 +4320,11 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0081
 			public const int submit_area = 2131558529;
 			
-			// aapt resource value: 0x7f0d01a6
-			public const int support = 2131558822;
+			// aapt resource value: 0x7f0d019c
+			public const int support = 2131558812;
 			
-			// aapt resource value: 0x7f0d0132
-			public const int swipe_container = 2131558706;
+			// aapt resource value: 0x7f0d012a
+			public const int swipe_container = 2131558698;
 			
 			// aapt resource value: 0x7f0d0094
 			public const int switchButton = 2131558548;
@@ -4392,23 +4332,23 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d003b
 			public const int tabMode = 2131558459;
 			
-			// aapt resource value: 0x7f0d0180
-			public const int tab_layout = 2131558784;
+			// aapt resource value: 0x7f0d0178
+			public const int tab_layout = 2131558776;
 			
-			// aapt resource value: 0x7f0d0167
-			public const int tempForLayoutAdjustment = 2131558759;
+			// aapt resource value: 0x7f0d015f
+			public const int tempForLayoutAdjustment = 2131558751;
 			
 			// aapt resource value: 0x7f0d0013
 			public const int terrain = 2131558419;
 			
-			// aapt resource value: 0x7f0d017e
-			public const int text = 2131558782;
+			// aapt resource value: 0x7f0d0176
+			public const int text = 2131558774;
 			
-			// aapt resource value: 0x7f0d00e1
-			public const int text1 = 2131558625;
+			// aapt resource value: 0x7f0d00d5
+			public const int text1 = 2131558613;
 			
-			// aapt resource value: 0x7f0d00e0
-			public const int text2 = 2131558624;
+			// aapt resource value: 0x7f0d00d4
+			public const int text2 = 2131558612;
 			
 			// aapt resource value: 0x7f0d0064
 			public const int textSpacerNoButtons = 2131558500;
@@ -4416,8 +4356,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0063
 			public const int textSpacerNoTitle = 2131558499;
 			
-			// aapt resource value: 0x7f0d0100
-			public const int text_input_password_toggle = 2131558656;
+			// aapt resource value: 0x7f0d00f4
+			public const int text_input_password_toggle = 2131558644;
 			
 			// aapt resource value: 0x7f0d0000
 			public const int textinput_counter = 2131558400;
@@ -4425,8 +4365,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0001
 			public const int textinput_error = 2131558401;
 			
-			// aapt resource value: 0x7f0d0175
-			public const int time = 2131558773;
+			// aapt resource value: 0x7f0d016d
+			public const int time = 2131558765;
 			
 			// aapt resource value: 0x7f0d005c
 			public const int title = 2131558492;
@@ -4437,11 +4377,11 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0069
 			public const int title_template = 2131558505;
 			
-			// aapt resource value: 0x7f0d00d4
-			public const int toolbar = 2131558612;
+			// aapt resource value: 0x7f0d00c9
+			public const int toolbar = 2131558601;
 			
-			// aapt resource value: 0x7f0d00d1
-			public const int toolbar_layout = 2131558609;
+			// aapt resource value: 0x7f0d00c6
+			public const int toolbar_layout = 2131558598;
 			
 			// aapt resource value: 0x7f0d0085
 			public const int toolbar_map_screen = 2131558533;
@@ -4452,8 +4392,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0068
 			public const int topPanel = 2131558504;
 			
-			// aapt resource value: 0x7f0d00f7
-			public const int touch_outside = 2131558647;
+			// aapt resource value: 0x7f0d00eb
+			public const int touch_outside = 2131558635;
 			
 			// aapt resource value: 0x7f0d0004
 			public const int transition_current_scene = 2131558404;
@@ -4461,62 +4401,68 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0d0005
 			public const int transition_scene_layoutid_cache = 2131558405;
 			
-			// aapt resource value: 0x7f0d012e
-			public const int txtName = 2131558702;
+			// aapt resource value: 0x7f0d0126
+			public const int txtName = 2131558694;
 			
-			// aapt resource value: 0x7f0d012f
-			public const int txtTitle = 2131558703;
+			// aapt resource value: 0x7f0d0127
+			public const int txtTitle = 2131558695;
 			
-			// aapt resource value: 0x7f0d0119
-			public const int txtcount = 2131558681;
+			// aapt resource value: 0x7f0d0111
+			public const int txtcount = 2131558673;
 			
-			// aapt resource value: 0x7f0d01ac
-			public const int unmuteGroup = 2131558828;
+			// aapt resource value: 0x7f0d01a3
+			public const int unmuteGroup = 2131558819;
 			
-			// aapt resource value: 0x7f0d015a
-			public const int unreadSmsCount = 2131558746;
+			// aapt resource value: 0x7f0d0152
+			public const int unreadSmsCount = 2131558738;
 			
 			// aapt resource value: 0x7f0d000e
 			public const int up = 2131558414;
 			
-			// aapt resource value: 0x7f0d00c9
-			public const int upload_camera_layout = 2131558601;
+			// aapt resource value: 0x7f0d00be
+			public const int upload_camera_layout = 2131558590;
 			
-			// aapt resource value: 0x7f0d00c8
-			public const int upload_gallery_layout = 2131558600;
+			// aapt resource value: 0x7f0d00bd
+			public const int upload_gallery_layout = 2131558589;
 			
-			// aapt resource value: 0x7f0d00ca
-			public const int upload_remove_image_layout = 2131558602;
+			// aapt resource value: 0x7f0d00bf
+			public const int upload_remove_image_layout = 2131558591;
 			
 			// aapt resource value: 0x7f0d0041
 			public const int useLogo = 2131558465;
 			
-			// aapt resource value: 0x7f0d01a7
-			public const int userBlock = 2131558823;
+			// aapt resource value: 0x7f0d019e
+			public const int userBlock = 2131558814;
 			
-			// aapt resource value: 0x7f0d018c
-			public const int userName = 2131558796;
+			// aapt resource value: 0x7f0d0184
+			public const int userName = 2131558788;
 			
-			// aapt resource value: 0x7f0d01a8
-			public const int userUnBlock = 2131558824;
+			// aapt resource value: 0x7f0d019f
+			public const int userUnBlock = 2131558815;
 			
-			// aapt resource value: 0x7f0d014a
-			public const int user_not_able_to_chat_layout = 2131558730;
+			// aapt resource value: 0x7f0d0142
+			public const int user_not_able_to_chat_layout = 2131558722;
 			
-			// aapt resource value: 0x7f0d014b
-			public const int user_not_able_to_chat_textView = 2131558731;
+			// aapt resource value: 0x7f0d0143
+			public const int user_not_able_to_chat_textView = 2131558723;
 			
-			// aapt resource value: 0x7f0d010e
-			public const int video_icon = 2131558670;
+			// aapt resource value: 0x7f0d00f7
+			public const int username_input = 2131558647;
 			
-			// aapt resource value: 0x7f0d0181
-			public const int viewPager = 2131558785;
+			// aapt resource value: 0x7f0d019d
+			public const int video_call = 2131558813;
+			
+			// aapt resource value: 0x7f0d0106
+			public const int video_icon = 2131558662;
+			
+			// aapt resource value: 0x7f0d0179
+			public const int viewPager = 2131558777;
 			
 			// aapt resource value: 0x7f0d0002
 			public const int view_offset_helper = 2131558402;
 			
-			// aapt resource value: 0x7f0d0193
-			public const int visible = 2131558803;
+			// aapt resource value: 0x7f0d018b
+			public const int visible = 2131558795;
 			
 			// aapt resource value: 0x7f0d0018
 			public const int wide = 2131558424;
@@ -4680,16 +4626,16 @@ namespace ApplozicChat
 			public const int activity_profile = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int applozic_channel_custom_message_layout = 2130968606;
+			public const int applozic_call_layout = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int applozic_context_based_layout = 2130968607;
+			public const int applozic_channel_custom_message_layout = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int applozic_custom_message_layout = 2130968608;
+			public const int applozic_context_based_layout = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int applozic_document_attachment = 2130968609;
+			public const int applozic_custom_message_layout = 2130968609;
 			
 			// aapt resource value: 0x7f040022
 			public const int applozic_groups_list_layout = 2130968610;
@@ -4776,136 +4722,139 @@ namespace ApplozicChat
 			public const int fragment_contact = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int Main = 2130968638;
+			public const int login_activity_layout = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int mobicom_attachment_gridview_item = 2130968639;
+			public const int Main = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int mobicom_attachment_gridview_layout = 2130968640;
+			public const int mobicom_attachment_gridview_item = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int mobicom_attachment_preview_layout = 2130968641;
+			public const int mobicom_attachment_gridview_layout = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int mobicom_audio_message_layout = 2130968642;
+			public const int mobicom_attachment_preview_layout = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int mobicom_chat_location_view = 2130968643;
+			public const int mobicom_audio_message_layout = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int mobicom_contact_share_layout = 2130968644;
+			public const int mobicom_chat_location_view = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int mobicom_date_layout = 2130968645;
+			public const int mobicom_contact_share_layout = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int mobicom_image_full_screen = 2130968646;
+			public const int mobicom_date_layout = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int mobicom_individual_multimedia_option_item = 2130968647;
+			public const int mobicom_image_full_screen = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int mobicom_list_item_title_navigation = 2130968648;
+			public const int mobicom_individual_multimedia_option_item = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int mobicom_message_list = 2130968649;
+			public const int mobicom_list_item_title_navigation = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int mobicom_message_list_header_footer = 2130968650;
+			public const int mobicom_message_list = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int mobicom_message_row_view = 2130968651;
+			public const int mobicom_message_list_header_footer = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int mobicom_multi_attachment_activity = 2130968652;
+			public const int mobicom_message_row_view = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int mobicom_multimedia_fragment_layout = 2130968653;
+			public const int mobicom_multi_attachment_activity = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int mobicom_received_message_list_view = 2130968654;
+			public const int mobicom_multimedia_fragment_layout = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int mobicom_sent_message_list_view = 2130968655;
+			public const int mobicom_received_message_list_view = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int mobiframework_custom_spinner = 2130968656;
+			public const int mobicom_sent_message_list_view = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int mtmainactivity_layout = 2130968657;
+			public const int mobiframework_custom_spinner = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int notification_action = 2130968658;
+			public const int mtmainactivity_layout = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int notification_action_tombstone = 2130968659;
+			public const int notification_action = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int notification_media_action = 2130968660;
+			public const int notification_action_tombstone = 2130968660;
 			
 			// aapt resource value: 0x7f040055
-			public const int notification_media_cancel_action = 2130968661;
+			public const int notification_media_action = 2130968661;
 			
 			// aapt resource value: 0x7f040056
-			public const int notification_template_big_media = 2130968662;
+			public const int notification_media_cancel_action = 2130968662;
 			
 			// aapt resource value: 0x7f040057
-			public const int notification_template_big_media_custom = 2130968663;
+			public const int notification_template_big_media = 2130968663;
 			
 			// aapt resource value: 0x7f040058
-			public const int notification_template_big_media_narrow = 2130968664;
+			public const int notification_template_big_media_custom = 2130968664;
 			
 			// aapt resource value: 0x7f040059
-			public const int notification_template_big_media_narrow_custom = 2130968665;
+			public const int notification_template_big_media_narrow = 2130968665;
 			
 			// aapt resource value: 0x7f04005a
-			public const int notification_template_custom_big = 2130968666;
+			public const int notification_template_big_media_narrow_custom = 2130968666;
 			
 			// aapt resource value: 0x7f04005b
-			public const int notification_template_icon_group = 2130968667;
+			public const int notification_template_custom_big = 2130968667;
 			
 			// aapt resource value: 0x7f04005c
-			public const int notification_template_lines_media = 2130968668;
+			public const int notification_template_icon_group = 2130968668;
 			
 			// aapt resource value: 0x7f04005d
-			public const int notification_template_media = 2130968669;
+			public const int notification_template_lines_media = 2130968669;
 			
 			// aapt resource value: 0x7f04005e
-			public const int notification_template_media_custom = 2130968670;
+			public const int notification_template_media = 2130968670;
 			
 			// aapt resource value: 0x7f04005f
-			public const int notification_template_part_chronometer = 2130968671;
+			public const int notification_template_media_custom = 2130968671;
 			
 			// aapt resource value: 0x7f040060
-			public const int notification_template_part_time = 2130968672;
+			public const int notification_template_part_chronometer = 2130968672;
 			
 			// aapt resource value: 0x7f040061
-			public const int people_activity = 2130968673;
+			public const int notification_template_part_time = 2130968673;
 			
 			// aapt resource value: 0x7f040062
-			public const int quickconversion_activity = 2130968674;
+			public const int people_activity = 2130968674;
 			
 			// aapt resource value: 0x7f040063
-			public const int select_dialog_item_material = 2130968675;
+			public const int quickconversion_activity = 2130968675;
 			
 			// aapt resource value: 0x7f040064
-			public const int select_dialog_multichoice_material = 2130968676;
+			public const int select_dialog_item_material = 2130968676;
 			
 			// aapt resource value: 0x7f040065
-			public const int select_dialog_singlechoice_material = 2130968677;
+			public const int select_dialog_multichoice_material = 2130968677;
 			
 			// aapt resource value: 0x7f040066
-			public const int sliding_pane = 2130968678;
+			public const int select_dialog_singlechoice_material = 2130968678;
 			
 			// aapt resource value: 0x7f040067
-			public const int support_simple_spinner_dropdown_item = 2130968679;
+			public const int sliding_pane = 2130968679;
 			
 			// aapt resource value: 0x7f040068
-			public const int update_channel_name_layout = 2130968680;
+			public const int support_simple_spinner_dropdown_item = 2130968680;
 			
 			// aapt resource value: 0x7f040069
-			public const int user_profile_fragment_layout = 2130968681;
+			public const int update_channel_name_layout = 2130968681;
+			
+			// aapt resource value: 0x7f04006a
+			public const int user_profile_fragment_layout = 2130968682;
 			
 			static Layout()
 			{
@@ -5094,136 +5043,130 @@ namespace ApplozicChat
 			public const int alert_for_empty_message = 2131296327;
 			
 			// aapt resource value: 0x7f090048
-			public const int alert_for_restricted_words = 2131296328;
+			public const int alphabet = 2131296328;
 			
 			// aapt resource value: 0x7f090049
-			public const int alphabet = 2131296329;
-			
-			// aapt resource value: 0x7f09004a
-			public const int app_name = 2131296330;
+			public const int app_name = 2131296329;
 			
 			// aapt resource value: 0x7f090011
 			public const int appbar_scrolling_view_behavior = 2131296273;
 			
-			// aapt resource value: 0x7f09012c
-			public const int application_key = 2131296556;
+			// aapt resource value: 0x7f090120
+			public const int application_key = 2131296544;
+			
+			// aapt resource value: 0x7f09004a
+			public const int applozic_account_closed = 2131296330;
 			
 			// aapt resource value: 0x7f09004b
-			public const int applozic_account_closed = 2131296331;
+			public const int applozic_add_user_to_multiple_channel_error_info_in_logs = 2131296331;
 			
 			// aapt resource value: 0x7f09004c
-			public const int applozic_add_user_to_multiple_channel_error_info_in_logs = 2131296332;
+			public const int applozic_audio_permission_missing = 2131296332;
 			
 			// aapt resource value: 0x7f09004d
-			public const int applozic_audio_permission_missing = 2131296333;
+			public const int applozic_channel_error_info_in_logs = 2131296333;
 			
 			// aapt resource value: 0x7f09004e
-			public const int applozic_channel_error_info_in_logs = 2131296334;
+			public const int applozic_contacts_loading_error = 2131296334;
 			
 			// aapt resource value: 0x7f09004f
-			public const int applozic_contacts_loading_error = 2131296335;
+			public const int applozic_contacts_loading_info = 2131296335;
 			
 			// aapt resource value: 0x7f090050
-			public const int applozic_contacts_loading_info = 2131296336;
+			public const int applozic_free_version_not_allowed_on_release_build = 2131296336;
 			
 			// aapt resource value: 0x7f090051
-			public const int applozic_data_usage = 2131296337;
+			public const int applozic_message_info = 2131296337;
 			
 			// aapt resource value: 0x7f090052
-			public const int applozic_free_version_not_allowed_on_release_build = 2131296338;
+			public const int applozic_message_info_no_network = 2131296338;
 			
 			// aapt resource value: 0x7f090053
-			public const int applozic_message_info = 2131296339;
+			public const int applozic_my_profile_option_info = 2131296339;
+			
+			// aapt resource value: 0x7f090127
+			public const int applozic_sample_app = 2131296551;
 			
 			// aapt resource value: 0x7f090054
-			public const int applozic_message_info_no_network = 2131296340;
+			public const int applozic_select_photo = 2131296340;
 			
 			// aapt resource value: 0x7f090055
-			public const int applozic_my_profile_option_info = 2131296341;
+			public const int applozic_server_error = 2131296341;
 			
 			// aapt resource value: 0x7f090056
-			public const int applozic_network_usage = 2131296342;
+			public const int applozic_userId_error_info_in_logs = 2131296342;
 			
 			// aapt resource value: 0x7f090057
-			public const int applozic_select_photo = 2131296343;
+			public const int applozic_user_already_in_a_group = 2131296343;
 			
 			// aapt resource value: 0x7f090058
-			public const int applozic_server_error = 2131296344;
+			public const int applozic_user_profile_heading = 2131296344;
 			
 			// aapt resource value: 0x7f090059
-			public const int applozic_userId_error_info_in_logs = 2131296345;
+			public const int attachment_retry = 2131296345;
 			
 			// aapt resource value: 0x7f09005a
-			public const int applozic_user_already_in_a_group = 2131296346;
-			
-			// aapt resource value: 0x7f09005b
-			public const int applozic_user_profile_heading = 2131296347;
-			
-			// aapt resource value: 0x7f09005c
-			public const int attachment_retry = 2131296348;
-			
-			// aapt resource value: 0x7f09005d
-			public const int audio_recording_send_text = 2131296349;
+			public const int audio_recording_send_text = 2131296346;
 			
 			// aapt resource value: 0x7f090012
 			public const int bottom_sheet_behavior = 2131296274;
 			
+			// aapt resource value: 0x7f09005b
+			public const int broadcast_creating_info = 2131296347;
+			
+			// aapt resource value: 0x7f09005c
+			public const int broadcast_delete_button = 2131296348;
+			
+			// aapt resource value: 0x7f09005d
+			public const int broadcast_exit_button = 2131296349;
+			
 			// aapt resource value: 0x7f09005e
-			public const int broadcast_creating_info = 2131296350;
+			public const int broadcast_string = 2131296350;
 			
 			// aapt resource value: 0x7f09005f
-			public const int broadcast_delete_button = 2131296351;
+			public const int call_history_display_within_messages_pref_key = 2131296351;
 			
 			// aapt resource value: 0x7f090060
-			public const int broadcast_exit_button = 2131296352;
+			public const int cancel_text = 2131296352;
 			
 			// aapt resource value: 0x7f090061
-			public const int broadcast_string = 2131296353;
+			public const int channel_add_alert = 2131296353;
 			
 			// aapt resource value: 0x7f090062
-			public const int call_history_display_within_messages_pref_key = 2131296354;
+			public const int channel_create_title = 2131296354;
 			
 			// aapt resource value: 0x7f090063
-			public const int cancel_text = 2131296355;
+			public const int channel_created_by = 2131296355;
 			
 			// aapt resource value: 0x7f090064
-			public const int channel_add_alert = 2131296356;
+			public const int channel_delete_group_button = 2131296356;
 			
 			// aapt resource value: 0x7f090065
-			public const int channel_create_title = 2131296357;
+			public const int channel_deleting = 2131296357;
 			
 			// aapt resource value: 0x7f090066
-			public const int channel_created_by = 2131296358;
+			public const int channel_edit_alert = 2131296358;
 			
 			// aapt resource value: 0x7f090067
-			public const int channel_delete_group_button = 2131296359;
+			public const int channel_exit = 2131296359;
 			
 			// aapt resource value: 0x7f090068
-			public const int channel_deleting = 2131296360;
+			public const int channel_exit_button = 2131296360;
 			
 			// aapt resource value: 0x7f090069
-			public const int channel_edit_alert = 2131296361;
+			public const int channel_member_exit = 2131296361;
 			
 			// aapt resource value: 0x7f09006a
-			public const int channel_exit = 2131296362;
+			public const int channel_member_title = 2131296362;
 			
 			// aapt resource value: 0x7f09006b
-			public const int channel_exit_button = 2131296363;
+			public const int channel_members_title = 2131296363;
 			
 			// aapt resource value: 0x7f09006c
-			public const int channel_member_exit = 2131296364;
+			public const int channel_name_empty = 2131296364;
 			
 			// aapt resource value: 0x7f09006d
-			public const int channel_member_title = 2131296365;
-			
-			// aapt resource value: 0x7f09006e
-			public const int channel_members_title = 2131296366;
-			
-			// aapt resource value: 0x7f09006f
-			public const int channel_name_empty = 2131296367;
-			
-			// aapt resource value: 0x7f090070
-			public const int channel_update = 2131296368;
+			public const int channel_update = 2131296365;
 			
 			// aapt resource value: 0x7f090013
 			public const int character_counter_pattern = 2131296275;
@@ -5279,38 +5222,38 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f09000f
 			public const int common_signin_button_text_long = 2131296271;
 			
+			// aapt resource value: 0x7f09006e
+			public const int confirm = 2131296366;
+			
+			// aapt resource value: 0x7f09006f
+			public const int confirm_your_number = 2131296367;
+			
+			// aapt resource value: 0x7f090070
+			public const int contact_permission = 2131296368;
+			
 			// aapt resource value: 0x7f090071
-			public const int confirm = 2131296369;
+			public const int contact_permission_granted = 2131296369;
 			
 			// aapt resource value: 0x7f090072
-			public const int confirm_your_number = 2131296370;
+			public const int contact_permission_not_granted = 2131296370;
 			
 			// aapt resource value: 0x7f090073
-			public const int contact_permission = 2131296371;
+			public const int contact_sync_in_progress = 2131296371;
 			
 			// aapt resource value: 0x7f090074
-			public const int contact_permission_granted = 2131296372;
+			public const int contactsListActivity = 2131296372;
 			
 			// aapt resource value: 0x7f090075
-			public const int contact_permission_not_granted = 2131296373;
+			public const int contacts_list_search_results_title = 2131296373;
 			
 			// aapt resource value: 0x7f090076
-			public const int contact_sync_in_progress = 2131296374;
+			public const int conversation = 2131296374;
 			
 			// aapt resource value: 0x7f090077
-			public const int contactsListActivity = 2131296375;
+			public const int conversation_options = 2131296375;
 			
 			// aapt resource value: 0x7f090078
-			public const int contacts_list_search_results_title = 2131296376;
-			
-			// aapt resource value: 0x7f090079
-			public const int conversation = 2131296377;
-			
-			// aapt resource value: 0x7f09007a
-			public const int conversation_options = 2131296378;
-			
-			// aapt resource value: 0x7f09007b
-			public const int conversations = 2131296379;
+			public const int conversations = 2131296376;
 			
 			// aapt resource value: 0x7f09003a
 			public const int crop_image_activity_title = 2131296314;
@@ -5324,299 +5267,290 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f09003d
 			public const int crop_image_menu_rotate_right = 2131296317;
 			
-			// aapt resource value: 0x7f09007c
-			public const int defaultDate = 2131296380;
+			// aapt resource value: 0x7f090079
+			public const int defaultDate = 2131296377;
 			
-			// aapt resource value: 0x7f09007d
-			public const int defaultTime = 2131296381;
-			
-			// aapt resource value: 0x7f090131
-			public const int default_media_location_folder = 2131296561;
-			
-			// aapt resource value: 0x7f090130
-			public const int default_mqtt_server_url = 2131296560;
-			
-			// aapt resource value: 0x7f09012f
-			public const int default_server_url = 2131296559;
-			
-			// aapt resource value: 0x7f090127
-			public const int default_web_client_id = 2131296551;
-			
-			// aapt resource value: 0x7f09007e
-			public const int delete_channel_messages_and_channel_info = 2131296382;
-			
-			// aapt resource value: 0x7f09007f
-			public const int delete_conversation = 2131296383;
-			
-			// aapt resource value: 0x7f090080
-			public const int delete_conversation_failed = 2131296384;
-			
-			// aapt resource value: 0x7f090081
-			public const int delete_thread_text = 2131296385;
-			
-			// aapt resource value: 0x7f090082
-			public const int deleting_channel_user = 2131296386;
-			
-			// aapt resource value: 0x7f090083
-			public const int delivery_report_pref_key = 2131296387;
-			
-			// aapt resource value: 0x7f090084
-			public const int device_key_string = 2131296388;
-			
-			// aapt resource value: 0x7f090085
-			public const int device_registration_id = 2131296389;
-			
-			// aapt resource value: 0x7f090086
-			public const int dialog_add_group_user = 2131296390;
-			
-			// aapt resource value: 0x7f090087
-			public const int dialog_delete_conversation_confir = 2131296391;
-			
-			// aapt resource value: 0x7f090088
-			public const int dialog_delete_conversation_title = 2131296392;
-			
-			// aapt resource value: 0x7f090089
-			public const int dialog_remove_group_user = 2131296393;
-			
-			// aapt resource value: 0x7f09008a
-			public const int edit = 2131296394;
-			
-			// aapt resource value: 0x7f09008b
-			public const int email = 2131296395;
-			
-			// aapt resource value: 0x7f09008c
-			public const int email_verified = 2131296396;
-			
-			// aapt resource value: 0x7f09008d
-			public const int empty_conversations = 2131296397;
-			
-			// aapt resource value: 0x7f09008e
-			public const int enable_vibration_notification = 2131296398;
-			
-			// aapt resource value: 0x7f09008f
-			public const int enter_message_hint = 2131296399;
-			
-			// aapt resource value: 0x7f090090
-			public const int enter_mt_message_hint = 2131296400;
-			
-			// aapt resource value: 0x7f090091
-			public const int enter_support_query_hint = 2131296401;
-			
-			// aapt resource value: 0x7f090092
-			public const int exit_channel_message_info = 2131296402;
-			
-			// aapt resource value: 0x7f090093
-			public const int failed_to_leave_group = 2131296403;
-			
-			// aapt resource value: 0x7f090094
-			public const int file_not_selected = 2131296404;
-			
-			// aapt resource value: 0x7f090128
-			public const int firebase_database_url = 2131296552;
+			// aapt resource value: 0x7f09007a
+			public const int defaultTime = 2131296378;
 			
 			// aapt resource value: 0x7f090125
-			public const int gcm_defaultSenderId = 2131296549;
+			public const int default_media_location_folder = 2131296549;
 			
-			// aapt resource value: 0x7f090129
-			public const int google_api_key = 2131296553;
+			// aapt resource value: 0x7f090124
+			public const int default_mqtt_server_url = 2131296548;
 			
-			// aapt resource value: 0x7f090126
-			public const int google_app_id = 2131296550;
+			// aapt resource value: 0x7f090123
+			public const int default_server_url = 2131296547;
 			
-			// aapt resource value: 0x7f09012a
-			public const int google_crash_reporting_api_key = 2131296554;
+			// aapt resource value: 0x7f09011b
+			public const int default_web_client_id = 2131296539;
 			
-			// aapt resource value: 0x7f09012b
-			public const int google_storage_bucket = 2131296555;
+			// aapt resource value: 0x7f09007b
+			public const int delete_channel_messages_and_channel_info = 2131296379;
+			
+			// aapt resource value: 0x7f09007c
+			public const int delete_conversation = 2131296380;
+			
+			// aapt resource value: 0x7f09007d
+			public const int delete_conversation_failed = 2131296381;
+			
+			// aapt resource value: 0x7f09007e
+			public const int delete_thread_text = 2131296382;
+			
+			// aapt resource value: 0x7f09007f
+			public const int deleting_channel_user = 2131296383;
+			
+			// aapt resource value: 0x7f090080
+			public const int delivery_report_pref_key = 2131296384;
+			
+			// aapt resource value: 0x7f090081
+			public const int device_key_string = 2131296385;
+			
+			// aapt resource value: 0x7f090082
+			public const int device_registration_id = 2131296386;
+			
+			// aapt resource value: 0x7f090083
+			public const int dialog_add_group_user = 2131296387;
+			
+			// aapt resource value: 0x7f090084
+			public const int dialog_delete_conversation_confir = 2131296388;
+			
+			// aapt resource value: 0x7f090085
+			public const int dialog_delete_conversation_title = 2131296389;
+			
+			// aapt resource value: 0x7f090086
+			public const int dialog_remove_group_user = 2131296390;
+			
+			// aapt resource value: 0x7f090087
+			public const int edit = 2131296391;
+			
+			// aapt resource value: 0x7f090088
+			public const int email = 2131296392;
+			
+			// aapt resource value: 0x7f090089
+			public const int email_verified = 2131296393;
+			
+			// aapt resource value: 0x7f09008a
+			public const int empty_conversations = 2131296394;
+			
+			// aapt resource value: 0x7f09008b
+			public const int enter_message_hint = 2131296395;
+			
+			// aapt resource value: 0x7f09008c
+			public const int enter_mt_message_hint = 2131296396;
+			
+			// aapt resource value: 0x7f09008d
+			public const int enter_support_query_hint = 2131296397;
+			
+			// aapt resource value: 0x7f09008e
+			public const int exit_channel_message_info = 2131296398;
+			
+			// aapt resource value: 0x7f09008f
+			public const int failed_to_leave_group = 2131296399;
+			
+			// aapt resource value: 0x7f090090
+			public const int file_not_selected = 2131296400;
+			
+			// aapt resource value: 0x7f09011c
+			public const int firebase_database_url = 2131296540;
+			
+			// aapt resource value: 0x7f090119
+			public const int gcm_defaultSenderId = 2131296537;
+			
+			// aapt resource value: 0x7f09011d
+			public const int google_api_key = 2131296541;
+			
+			// aapt resource value: 0x7f09011a
+			public const int google_app_id = 2131296538;
+			
+			// aapt resource value: 0x7f09011e
+			public const int google_crash_reporting_api_key = 2131296542;
+			
+			// aapt resource value: 0x7f09011f
+			public const int google_storage_bucket = 2131296543;
+			
+			// aapt resource value: 0x7f090091
+			public const int groupType_info = 2131296401;
+			
+			// aapt resource value: 0x7f090092
+			public const int group_creating_info = 2131296402;
+			
+			// aapt resource value: 0x7f090093
+			public const int group_has_been_deleted_text = 2131296403;
+			
+			// aapt resource value: 0x7f090094
+			public const int group_members_limit_exceeds = 2131296404;
 			
 			// aapt resource value: 0x7f090095
-			public const int groupType_info = 2131296405;
+			public const int group_name_hint = 2131296405;
 			
 			// aapt resource value: 0x7f090096
-			public const int group_creating_info = 2131296406;
+			public const int group_name_info = 2131296406;
 			
 			// aapt resource value: 0x7f090097
-			public const int group_members_limit_exceeds = 2131296407;
+			public const int group_sms_freq_key = 2131296407;
 			
 			// aapt resource value: 0x7f090098
-			public const int group_name_hint = 2131296408;
+			public const int group_string = 2131296408;
 			
 			// aapt resource value: 0x7f090099
-			public const int group_name_info = 2131296409;
+			public const int hello_world = 2131296409;
 			
 			// aapt resource value: 0x7f09009a
-			public const int group_sms_freq_key = 2131296410;
+			public const int incoming_call = 2131296410;
 			
 			// aapt resource value: 0x7f09009b
-			public const int group_string = 2131296411;
+			public const int info_app_not_found_to_open_file = 2131296411;
 			
 			// aapt resource value: 0x7f09009c
-			public const int hello_world = 2131296412;
+			public const int info_attachment_max_allowed_file_size = 2131296412;
 			
 			// aapt resource value: 0x7f09009d
-			public const int incoming_call = 2131296413;
+			public const int info_broadcast_message = 2131296413;
 			
 			// aapt resource value: 0x7f09009e
-			public const int info_app_not_found_to_open_file = 2131296414;
+			public const int info_file_attachment_error = 2131296414;
 			
 			// aapt resource value: 0x7f09009f
-			public const int info_attachment_max_allowed_file_size = 2131296415;
+			public const int info_message_scheduled = 2131296415;
 			
 			// aapt resource value: 0x7f0900a0
-			public const int info_attachment_max_allowed_file_size_exceeded = 2131296416;
+			public const int info_message_sync = 2131296416;
 			
 			// aapt resource value: 0x7f0900a1
-			public const int info_broadcast_message = 2131296417;
+			public const int info_sample_contact_list = 2131296417;
 			
 			// aapt resource value: 0x7f0900a2
-			public const int info_file_attachment_error = 2131296418;
+			public const int instruction_go_back_to_recent_conversation_list = 2131296418;
 			
 			// aapt resource value: 0x7f0900a3
-			public const int info_message_scheduled = 2131296419;
+			public const int instruction_long_press_message = 2131296419;
 			
 			// aapt resource value: 0x7f0900a4
-			public const int info_message_sync = 2131296420;
+			public const int instruction_open_conversation_thread = 2131296420;
 			
 			// aapt resource value: 0x7f0900a5
-			public const int info_sample_contact_list = 2131296421;
+			public const int internet_connection_for_group_name_info = 2131296421;
 			
 			// aapt resource value: 0x7f0900a6
-			public const int instruction_go_back_to_recent_conversation_list = 2131296422;
+			public const int internet_connection_not_available = 2131296422;
 			
 			// aapt resource value: 0x7f0900a7
-			public const int instruction_long_press_message = 2131296423;
+			public const int invite = 2131296423;
 			
 			// aapt resource value: 0x7f0900a8
-			public const int instruction_open_conversation_thread = 2131296424;
+			public const int is_typing = 2131296424;
 			
 			// aapt resource value: 0x7f0900a9
-			public const int internet_connection_for_group_name_info = 2131296425;
+			public const int last_inbox_sync_time = 2131296425;
 			
 			// aapt resource value: 0x7f0900aa
-			public const int internet_connection_not_available = 2131296426;
+			public const int last_message_stat_sync_time = 2131296426;
 			
 			// aapt resource value: 0x7f0900ab
-			public const int invite = 2131296427;
+			public const int last_outbox_sync_time = 2131296427;
 			
 			// aapt resource value: 0x7f0900ac
-			public const int is_typing = 2131296428;
+			public const int last_sms_sync_time = 2131296428;
+			
+			// aapt resource value: 0x7f090121
+			public const int launch_chat_list = 2131296545;
 			
 			// aapt resource value: 0x7f0900ad
-			public const int last_inbox_sync_time = 2131296429;
+			public const int launch_mobitexter_app = 2131296429;
 			
 			// aapt resource value: 0x7f0900ae
-			public const int last_message_stat_sync_time = 2131296430;
+			public const int leave_channel = 2131296430;
 			
 			// aapt resource value: 0x7f0900af
-			public const int last_outbox_sync_time = 2131296431;
+			public const int location_permission = 2131296431;
 			
 			// aapt resource value: 0x7f0900b0
-			public const int last_sms_sync_time = 2131296432;
-			
-			// aapt resource value: 0x7f09012d
-			public const int launch_chat_list = 2131296557;
+			public const int location_permission_granted = 2131296432;
 			
 			// aapt resource value: 0x7f0900b1
-			public const int launch_mobitexter_app = 2131296433;
+			public const int location_permission_not_granted = 2131296433;
 			
 			// aapt resource value: 0x7f0900b2
-			public const int leave_channel = 2131296434;
+			public const int location_sending_cancelled = 2131296434;
 			
 			// aapt resource value: 0x7f0900b3
-			public const int location_permission = 2131296435;
+			public const int location_service_settings = 2131296435;
 			
 			// aapt resource value: 0x7f0900b4
-			public const int location_permission_granted = 2131296436;
+			public const int location_services_disabled_message = 2131296436;
 			
 			// aapt resource value: 0x7f0900b5
-			public const int location_permission_not_granted = 2131296437;
+			public const int location_services_disabled_title = 2131296437;
+			
+			// aapt resource value: 0x7f090126
+			public const int logout = 2131296550;
 			
 			// aapt resource value: 0x7f0900b6
-			public const int location_sending_cancelled = 2131296438;
+			public const int menu_add_contact = 2131296438;
 			
 			// aapt resource value: 0x7f0900b7
-			public const int location_service_settings = 2131296439;
+			public const int menu_edit_contact = 2131296439;
 			
 			// aapt resource value: 0x7f0900b8
-			public const int location_services_disabled_message = 2131296440;
+			public const int menu_search = 2131296440;
 			
 			// aapt resource value: 0x7f0900b9
-			public const int location_services_disabled_title = 2131296441;
-			
-			// aapt resource value: 0x7f090132
-			public const int logout = 2131296562;
+			public const int messageOptions = 2131296441;
 			
 			// aapt resource value: 0x7f0900ba
-			public const int make_admin_text_info = 2131296442;
+			public const int message_option_string = 2131296442;
 			
 			// aapt resource value: 0x7f0900bb
-			public const int media_auto_download = 2131296443;
+			public const int mobicom_max_attachment_warning = 2131296443;
 			
 			// aapt resource value: 0x7f0900bc
-			public const int menu_add_contact = 2131296444;
+			public const int mobicom_select_attachment_text = 2131296444;
 			
 			// aapt resource value: 0x7f0900bd
-			public const int menu_edit_contact = 2131296445;
+			public const int mobiframework_title_device = 2131296445;
 			
 			// aapt resource value: 0x7f0900be
-			public const int menu_search = 2131296446;
+			public const int mobiframework_title_group = 2131296446;
 			
 			// aapt resource value: 0x7f0900bf
-			public const int messageOptions = 2131296447;
+			public const int mobitexter_contact_sync_key = 2131296447;
 			
 			// aapt resource value: 0x7f0900c0
-			public const int message_option_string = 2131296448;
+			public const int mute_Group = 2131296448;
 			
 			// aapt resource value: 0x7f0900c1
-			public const int mobicom_max_attachment_warning = 2131296449;
+			public const int negetiveButtonText = 2131296449;
 			
 			// aapt resource value: 0x7f0900c2
-			public const int mobicom_select_attachment_text = 2131296450;
+			public const int new_broadcast_name_info = 2131296450;
 			
 			// aapt resource value: 0x7f0900c3
-			public const int mobiframework_title_device = 2131296451;
+			public const int new_channel_name_hint = 2131296451;
 			
 			// aapt resource value: 0x7f0900c4
-			public const int mobiframework_title_group = 2131296452;
+			public const int no_contact_selected = 2131296452;
 			
 			// aapt resource value: 0x7f0900c5
-			public const int mobitexter_contact_sync_key = 2131296453;
+			public const int no_contacts = 2131296453;
 			
 			// aapt resource value: 0x7f0900c6
-			public const int mute_Group = 2131296454;
+			public const int no_conversation = 2131296454;
 			
 			// aapt resource value: 0x7f0900c7
-			public const int negetiveButtonText = 2131296455;
+			public const int ok_text = 2131296455;
+			
+			// aapt resource value: 0x7f090122
+			public const int one_to_one_chat = 2131296546;
 			
 			// aapt resource value: 0x7f0900c8
-			public const int new_broadcast_name_info = 2131296456;
-			
-			// aapt resource value: 0x7f0900c9
-			public const int new_channel_name_hint = 2131296457;
-			
-			// aapt resource value: 0x7f0900ca
-			public const int no_contact_selected = 2131296458;
-			
-			// aapt resource value: 0x7f0900cb
-			public const int no_contacts = 2131296459;
-			
-			// aapt resource value: 0x7f0900cc
-			public const int no_conversation = 2131296460;
-			
-			// aapt resource value: 0x7f0900cd
-			public const int ok_alert = 2131296461;
-			
-			// aapt resource value: 0x7f09012e
-			public const int one_to_one_chat = 2131296558;
-			
-			// aapt resource value: 0x7f0900ce
-			public const int outgoing_call = 2131296462;
+			public const int outgoing_call = 2131296456;
 			
 			// aapt resource value: 0x7f090014
 			public const int password_toggle_content_description = 2131296276;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int patch_available = 2131296463;
+			// aapt resource value: 0x7f0900c9
+			public const int patch_available = 2131296457;
 			
 			// aapt resource value: 0x7f090015
 			public const int path_password_eye = 2131296277;
@@ -5630,269 +5564,251 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f090018
 			public const int path_password_strike_through = 2131296280;
 			
+			// aapt resource value: 0x7f0900ca
+			public const int phone_call_permission = 2131296458;
+			
+			// aapt resource value: 0x7f0900cb
+			public const int phone_call_permission_granted = 2131296459;
+			
+			// aapt resource value: 0x7f0900cc
+			public const int phone_call_permission_not_granted = 2131296460;
+			
+			// aapt resource value: 0x7f0900cd
+			public const int phone_camera_permission = 2131296461;
+			
+			// aapt resource value: 0x7f0900ce
+			public const int phone_camera_permission_granted = 2131296462;
+			
+			// aapt resource value: 0x7f0900cf
+			public const int phone_camera_permission_not_granted = 2131296463;
+			
 			// aapt resource value: 0x7f0900d0
-			public const int phone_call_permission = 2131296464;
+			public const int phone_number_key = 2131296464;
 			
 			// aapt resource value: 0x7f0900d1
-			public const int phone_call_permission_granted = 2131296465;
+			public const int phone_number_not_present = 2131296465;
 			
 			// aapt resource value: 0x7f0900d2
-			public const int phone_call_permission_not_granted = 2131296466;
+			public const int phone_state_permission_granted = 2131296466;
 			
 			// aapt resource value: 0x7f0900d3
-			public const int phone_camera_permission = 2131296467;
+			public const int phone_state_permission_not_granted = 2131296467;
 			
 			// aapt resource value: 0x7f0900d4
-			public const int phone_camera_permission_granted = 2131296468;
-			
-			// aapt resource value: 0x7f0900d5
-			public const int phone_camera_permission_not_granted = 2131296469;
-			
-			// aapt resource value: 0x7f0900d6
-			public const int phone_number_key = 2131296470;
-			
-			// aapt resource value: 0x7f0900d7
-			public const int phone_number_not_present = 2131296471;
-			
-			// aapt resource value: 0x7f0900d8
-			public const int phone_state_permission_granted = 2131296472;
-			
-			// aapt resource value: 0x7f0900d9
-			public const int phone_state_permission_not_granted = 2131296473;
-			
-			// aapt resource value: 0x7f0900da
-			public const int phone_state_permisssion = 2131296474;
+			public const int phone_state_permisssion = 2131296468;
 			
 			// aapt resource value: 0x7f09003e
 			public const int pick_image_intent_chooser_title = 2131296318;
 			
+			// aapt resource value: 0x7f0900d5
+			public const int please_wait_creating_group_of_two = 2131296469;
+			
+			// aapt resource value: 0x7f0900d6
+			public const int please_wait_info = 2131296470;
+			
+			// aapt resource value: 0x7f0900d7
+			public const int quick_conversation_loading = 2131296471;
+			
+			// aapt resource value: 0x7f0900d8
+			public const int read_sms_permission = 2131296472;
+			
+			// aapt resource value: 0x7f0900d9
+			public const int read_sms_permission_granted = 2131296473;
+			
+			// aapt resource value: 0x7f0900da
+			public const int read_sms_permission_not_granted = 2131296474;
+			
 			// aapt resource value: 0x7f0900db
-			public const int please_wait_creating_group_of_two = 2131296475;
+			public const int received_sms_sync_pref_key = 2131296475;
 			
 			// aapt resource value: 0x7f0900dc
-			public const int please_wait_info = 2131296476;
+			public const int record_audio = 2131296476;
 			
 			// aapt resource value: 0x7f0900dd
-			public const int quick_conversation_loading = 2131296477;
+			public const int record_audio_permission_granted = 2131296477;
 			
 			// aapt resource value: 0x7f0900de
-			public const int read_sms_permission = 2131296478;
+			public const int record_audio_permission_not_granted = 2131296478;
 			
 			// aapt resource value: 0x7f0900df
-			public const int read_sms_permission_granted = 2131296479;
+			public const int remove_member = 2131296479;
 			
 			// aapt resource value: 0x7f0900e0
-			public const int read_sms_permission_not_granted = 2131296480;
+			public const int removing_channel_user = 2131296480;
 			
 			// aapt resource value: 0x7f0900e1
-			public const int received_sms_sync_pref_key = 2131296481;
+			public const int scheduleDialogHeader = 2131296481;
 			
 			// aapt resource value: 0x7f0900e2
-			public const int record_audio = 2131296482;
+			public const int scheduledDateText = 2131296482;
 			
 			// aapt resource value: 0x7f0900e3
-			public const int record_audio_permission_granted = 2131296483;
+			public const int scheduledTimeText = 2131296483;
 			
 			// aapt resource value: 0x7f0900e4
-			public const int record_audio_permission_not_granted = 2131296484;
+			public const int search_hint = 2131296484;
 			
 			// aapt resource value: 0x7f0900e5
-			public const int remove_member = 2131296485;
-			
-			// aapt resource value: 0x7f0900e6
-			public const int removing_channel_user = 2131296486;
-			
-			// aapt resource value: 0x7f0900e7
-			public const int scheduleDialogHeader = 2131296487;
-			
-			// aapt resource value: 0x7f0900e8
-			public const int scheduledDateText = 2131296488;
-			
-			// aapt resource value: 0x7f0900e9
-			public const int scheduledTimeText = 2131296489;
-			
-			// aapt resource value: 0x7f0900ea
-			public const int search_hint = 2131296490;
-			
-			// aapt resource value: 0x7f0900eb
-			public const int search_match_other = 2131296491;
+			public const int search_match_other = 2131296485;
 			
 			// aapt resource value: 0x7f09002c
 			public const int search_menu_title = 2131296300;
 			
+			// aapt resource value: 0x7f0900e6
+			public const int search_not_found_for_messages = 2131296486;
+			
+			// aapt resource value: 0x7f0900e7
+			public const int search_title = 2131296487;
+			
+			// aapt resource value: 0x7f0900e8
+			public const int select_at_least = 2131296488;
+			
+			// aapt resource value: 0x7f0900e9
+			public const int select_file = 2131296489;
+			
+			// aapt resource value: 0x7f0900ea
+			public const int select_file_count_limit = 2131296490;
+			
+			// aapt resource value: 0x7f0900eb
+			public const int selectionRequestText = 2131296491;
+			
 			// aapt resource value: 0x7f0900ec
-			public const int search_not_found_for_messages = 2131296492;
+			public const int send_text = 2131296492;
 			
 			// aapt resource value: 0x7f0900ed
-			public const int search_title = 2131296493;
+			public const int sent_sms_sync_pref_key = 2131296493;
 			
 			// aapt resource value: 0x7f0900ee
-			public const int select_at_least = 2131296494;
+			public const int shareOptions = 2131296494;
 			
 			// aapt resource value: 0x7f0900ef
-			public const int select_file = 2131296495;
+			public const int skip = 2131296495;
 			
 			// aapt resource value: 0x7f0900f0
-			public const int select_file_count_limit = 2131296496;
-			
-			// aapt resource value: 0x7f0900f1
-			public const int selectionRequestText = 2131296497;
-			
-			// aapt resource value: 0x7f0900f2
-			public const int send_message_to = 2131296498;
-			
-			// aapt resource value: 0x7f0900f3
-			public const int send_text = 2131296499;
-			
-			// aapt resource value: 0x7f0900f4
-			public const int sent_sms_sync_pref_key = 2131296500;
-			
-			// aapt resource value: 0x7f0900f5
-			public const int shareOptions = 2131296501;
-			
-			// aapt resource value: 0x7f0900f6
-			public const int skip = 2131296502;
-			
-			// aapt resource value: 0x7f0900f7
-			public const int sort_contacts_by_lastSeenAt = 2131296503;
-			
-			// aapt resource value: 0x7f0900f8
-			public const int sort_contacts_by_recent_chats = 2131296504;
-			
-			// aapt resource value: 0x7f0900f9
-			public const int start_text = 2131296505;
+			public const int start_text = 2131296496;
 			
 			// aapt resource value: 0x7f09002d
 			public const int status_bar_notification_info_overflow = 2131296301;
 			
+			// aapt resource value: 0x7f0900f1
+			public const int stop_service = 2131296497;
+			
+			// aapt resource value: 0x7f0900f2
+			public const int storage_permission = 2131296498;
+			
+			// aapt resource value: 0x7f0900f3
+			public const int storage_permission_granted = 2131296499;
+			
+			// aapt resource value: 0x7f0900f4
+			public const int storage_permission_not_granted = 2131296500;
+			
+			// aapt resource value: 0x7f0900f5
+			public const int subtitle_last_seen_at_time = 2131296501;
+			
+			// aapt resource value: 0x7f0900f6
+			public const int sync_messages_from_server = 2131296502;
+			
+			// aapt resource value: 0x7f0900f7
+			public const int sync_older_messages = 2131296503;
+			
+			// aapt resource value: 0x7f0900f8
+			public const int title_activity_mobi_com = 2131296504;
+			
+			// aapt resource value: 0x7f0900f9
+			public const int unable_to_fetch_location = 2131296505;
+			
 			// aapt resource value: 0x7f0900fa
-			public const int stop_service = 2131296506;
+			public const int unmute_Group = 2131296506;
 			
 			// aapt resource value: 0x7f0900fb
-			public const int storage_permission = 2131296507;
+			public const int update_channel_title_name = 2131296507;
 			
 			// aapt resource value: 0x7f0900fc
-			public const int storage_permission_granted = 2131296508;
+			public const int update_push_registration = 2131296508;
 			
 			// aapt resource value: 0x7f0900fd
-			public const int storage_permission_not_granted = 2131296509;
+			public const int user_block = 2131296509;
 			
 			// aapt resource value: 0x7f0900fe
-			public const int subtitle_last_seen_at_time = 2131296510;
+			public const int user_block_info = 2131296510;
 			
 			// aapt resource value: 0x7f0900ff
-			public const int sync_messages_from_server = 2131296511;
+			public const int user_is_already_exists = 2131296511;
 			
 			// aapt resource value: 0x7f090100
-			public const int sync_older_messages = 2131296512;
+			public const int user_key_string = 2131296512;
 			
 			// aapt resource value: 0x7f090101
-			public const int title_activity_mobi_com = 2131296513;
+			public const int user_name_info = 2131296513;
 			
 			// aapt resource value: 0x7f090102
-			public const int unable_share_message = 2131296514;
+			public const int user_not_in_this_group_text = 2131296514;
 			
 			// aapt resource value: 0x7f090103
-			public const int unable_to_fetch_location = 2131296515;
+			public const int user_online = 2131296515;
 			
 			// aapt resource value: 0x7f090104
-			public const int unmute_Group = 2131296516;
+			public const int user_un_block = 2131296516;
 			
 			// aapt resource value: 0x7f090105
-			public const int update_channel_title_name = 2131296517;
+			public const int user_un_block_info = 2131296517;
 			
 			// aapt resource value: 0x7f090106
-			public const int update_push_registration = 2131296518;
+			public const int verification_send_sms_itself = 2131296518;
 			
 			// aapt resource value: 0x7f090107
-			public const int user_block = 2131296519;
+			public const int verification_success = 2131296519;
 			
 			// aapt resource value: 0x7f090108
-			public const int user_block_info = 2131296520;
+			public const int verify_contact_number = 2131296520;
 			
 			// aapt resource value: 0x7f090109
-			public const int user_has_been_deleted_text = 2131296521;
+			public const int verify_phone_number_notify_message = 2131296521;
 			
 			// aapt resource value: 0x7f09010a
-			public const int user_is_already_exists = 2131296522;
+			public const int video_string = 2131296522;
 			
 			// aapt resource value: 0x7f09010b
-			public const int user_is_blocked = 2131296523;
+			public const int view_option_string = 2131296523;
 			
 			// aapt resource value: 0x7f09010c
-			public const int user_key_string = 2131296524;
+			public const int waiting_for_current_location = 2131296524;
 			
 			// aapt resource value: 0x7f09010d
-			public const int user_name_info = 2131296525;
+			public const int wearable_action_label = 2131296525;
 			
 			// aapt resource value: 0x7f09010e
-			public const int user_not_in_this_group_text = 2131296526;
+			public const int wearable_action_title = 2131296526;
 			
 			// aapt resource value: 0x7f09010f
-			public const int user_online = 2131296527;
+			public const int webhook_enable_key = 2131296527;
 			
 			// aapt resource value: 0x7f090110
-			public const int user_un_block = 2131296528;
+			public const int welcome_message = 2131296528;
 			
 			// aapt resource value: 0x7f090111
-			public const int user_un_block_info = 2131296529;
+			public const int yes_alert = 2131296529;
 			
 			// aapt resource value: 0x7f090112
-			public const int verification_send_sms_itself = 2131296530;
+			public const int you_dont_have_any_network_access_info = 2131296530;
 			
 			// aapt resource value: 0x7f090113
-			public const int verification_success = 2131296531;
+			public const int you_need_network_access_for_block_or_unblock = 2131296531;
 			
 			// aapt resource value: 0x7f090114
-			public const int verify_contact_number = 2131296532;
+			public const int you_need_network_access_for_delete = 2131296532;
 			
 			// aapt resource value: 0x7f090115
-			public const int verify_phone_number_notify_message = 2131296533;
+			public const int you_string = 2131296533;
 			
 			// aapt resource value: 0x7f090116
-			public const int view_option_string = 2131296534;
+			public const int zero_friends_on_app = 2131296534;
 			
 			// aapt resource value: 0x7f090117
-			public const int waiting_for_current_location = 2131296535;
+			public const int zero_friends_on_phone = 2131296535;
 			
 			// aapt resource value: 0x7f090118
-			public const int wearable_action_label = 2131296536;
-			
-			// aapt resource value: 0x7f090119
-			public const int wearable_action_title = 2131296537;
-			
-			// aapt resource value: 0x7f09011a
-			public const int webhook_enable_key = 2131296538;
-			
-			// aapt resource value: 0x7f09011b
-			public const int welcome_message = 2131296539;
-			
-			// aapt resource value: 0x7f09011c
-			public const int when_on_cellular_network = 2131296540;
-			
-			// aapt resource value: 0x7f09011d
-			public const int when_on_wifi = 2131296541;
-			
-			// aapt resource value: 0x7f09011e
-			public const int you_dont_have_any_network_access_info = 2131296542;
-			
-			// aapt resource value: 0x7f09011f
-			public const int you_need_network_access_for_block_or_unblock = 2131296543;
-			
-			// aapt resource value: 0x7f090120
-			public const int you_need_network_access_for_delete = 2131296544;
-			
-			// aapt resource value: 0x7f090121
-			public const int you_string = 2131296545;
-			
-			// aapt resource value: 0x7f090122
-			public const int zero_friends_on_app = 2131296546;
-			
-			// aapt resource value: 0x7f090123
-			public const int zero_friends_on_phone = 2131296547;
-			
-			// aapt resource value: 0x7f090124
-			public const int zero_groups_on_app = 2131296548;
+			public const int zero_groups_on_app = 2131296536;
 			
 			static String()
 			{

@@ -8,5 +8,7 @@
     <string name="default_server_url">https://apps.applozic.com</string>
     <string name="default_mqtt_server_url">tcp://apps.applozic.com:1883</string>
     <string name="default_media_location_folder">XamarinApplozic</string>
-     <string name="logout">Log Out</string>
+    <string name="logout">Log Out</string>
+	 <string name="applozic_sample_app">Applozic Sample App</string>
+
 </resources>

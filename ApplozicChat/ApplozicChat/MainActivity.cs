@@ -8,7 +8,7 @@ using Android.Util;
 
 namespace ApplozicChat
 {
-	[Activity(Label = "Applozic Chat", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity(Label = "Applozic Chat")]
 	public class MainActivity : Activity
 	{
 
@@ -20,11 +20,6 @@ namespace ApplozicChat
 			SetContentView(Resource.Layout.Main);
 
 			ApplozicChatManager chatManager = new ApplozicChatManager(this);
-
-			if (!chatManager.ISUserLoggedIn())
-			{
-				chatManager.RegisterUser("xam01", "Xamarin 01", "123");
-			}
 
 			// Get our button from the layout resource,
 			// and attach an event to it
@@ -51,5 +46,6 @@ namespace ApplozicChat
 
 		}
 	}
+
 }
 

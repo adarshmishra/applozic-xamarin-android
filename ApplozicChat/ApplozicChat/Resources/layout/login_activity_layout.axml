@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/applozic_sample_app"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/app_heading_tv" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="68.0dp"
+        android:id="@+id/username_input"
+        android:hint="Enter your username"
+        android:textColorHint="@android:color/darker_gray"
+        android:gravity="center|left"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@color/ripple_material_dark"
+        android:textAlignment="center"
+        android:layout_below="@+id/app_heading_tv" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="68.0dp"
+        android:id="@+id/password_input"
+        android:background="@color/white"
+        android:password="true"
+        android:hint="Enter your password"
+        android:textColorHint="@android:color/darker_gray"
+        android:gravity="center|left"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@color/ripple_material_dark"
+        android:textAlignment="center"
+        android:layout_below="@+id/username_input" />
+    <Button
+        android:text="Sign In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:id="@+id/sign_in_btn"
+        android:layout_below="@+id/password_input" />
+</RelativeLayout>

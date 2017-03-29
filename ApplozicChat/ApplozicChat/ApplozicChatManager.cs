@@ -30,7 +30,7 @@ namespace Applozic
 		/*
 		 */
 
-		public void RegisterUser(string userId, string displayName, string password )
+		public void RegisterUser(string userId, string displayName, string password ,UserLoginListener userLoginListener)
 		{
 			// Build Applozic users..
 
@@ -39,9 +39,8 @@ namespace Applozic
 			user.UserId = userId;
 			user.Password = password;
 
-			UserLoginListener userLoginListener = new UserLoginListener();
 			Java.Lang.Void[] args = null;
-			new Com.Applozic.Mobicomkit.Api.Account.User.UserLoginTask(user, userLoginListener, context).Execute(args);
+			new UserLoginTask(user, userLoginListener, context).Execute(args);
 		}
 
 		/**
@@ -83,6 +82,11 @@ namespace Applozic
 	 */
 	public class UserLoginListener : Java.Lang.Object, UserLoginTask.ITaskListener
 	{
+		public delegate void OnRegistrationSucess(RegistrationResponse res, Context context);
+		public delegate void OnRegistrationFailed(RegistrationResponse res,  Java.Lang.Exception e);
+		public event OnRegistrationSucess OnRegistrationSucessHandler;
+		public event OnRegistrationFailed OnRegistrationFailedHandler;
+
 
 		//RegistrationResponse registrationResponse, Context context
 		public void OnSuccess(RegistrationResponse res, Context context)
@@ -95,13 +99,26 @@ namespace Applozic
 			{
 				new PushNotificationTask(deviceRegistartionId, PushRegisterListener, context).Execute(args);
 			}
+			//Send call back to caller
+			if (OnRegistrationSucessHandler != null)
+			{
+				OnRegistrationSucessHandler(res, context);
+			}
+				
 		}
 
 		public void OnFailure(RegistrationResponse res, Java.Lang.Exception e)
 		{
 			System.Console.WriteLine("Exception ::" + e.Message);
 
+			//Send call back to caller
+			if (OnRegistrationFailedHandler != null)
+			{
+				OnRegistrationFailedHandler(res,e);
+			}
 		}
+
+
 
 	}
 
@@ -112,7 +129,7 @@ namespace Applozic
 	 * Class for initialising chat..
 	 */
 	public class UserLogoutListener : Java.Lang.Object,UserLogoutTask.ITaskListener
-	{
+	{  
 
 		//RegistrationResponse registrationResponse, Context context
 		public void OnSuccess(Context context)

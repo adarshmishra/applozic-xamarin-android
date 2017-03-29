@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{1D62B15F-C648-4336-93E2-D3E6C713258F}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ApplozicChat/google-services.json">
     <Files>
-      <File FileName="ApplozicChat/MainActivity.cs" Line="7" Column="1" />
-      <File FileName="ApplozicChat/ApplozicFirebaseIIDService.cs" Line="61" Column="2" />
-      <File FileName="ApplozicChat/ApplozicChatManager.cs" Line="39" Column="25" />
-      <File FileName="ApplozicChat/Resources/values/Strings.xml" Line="11" Column="35" />
-      <File FileName="ApplozicChat/google-services.json" Line="14" Column="10" />
-      <File FileName="ApplozicChat/packages.config" Line="1" Column="1" />
+      <File FileName="ApplozicChat/MainActivity.cs" Line="41" Column="6" />
+      <File FileName="ApplozicChat/ApplozicChatManager.cs" Line="52" Column="45" />
+      <File FileName="ApplozicChat/Resources/LoginActivity.cs" Line="64" Column="23" />
+      <File FileName="ApplozicChat/Properties/AndroidManifest.xml" Line="42" Column="254" />
+      <File FileName="ApplozicChat/google-services.json" Line="27" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -14,6 +13,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ApplozicChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.10.0.0.3:5555" />
+  <MonoDevelop.Ide.ItemProperties.ApplozicChat AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.0.108:5555" />
   <MultiItemStartupConfigurations />
 </Properties>
