@@ -185,7 +185,7 @@ ApplozicChatManager ChatManger = new ApplozicChatManager(context);
 UserLogoutListener logoutListener = new UserLogoutListener();
 logoutListener.OnLogoutSucessHandler += (context) =>
  {
-    //
+    //Log out complete...
  }; 
 chatManager.Logout(logoutListener);
 
