@@ -7,7 +7,7 @@ Applozic chat in native Xamarin Android.
 
 #### STEP 1: Add DLLs as reference:
 
-- Add DLLs as refrences in .net assembalies present in lib-dll folder.
+- Add DLLs as references in .net assemblies present in lib-dll folder.
 
  Your Solution --> References --> Edit References --> .Net Assembly--> Browse and add all dlls from lib-dll folder.
  
@@ -18,13 +18,13 @@ Add Helper class [ApplozicChatManager.cs](https://raw.githubusercontent.com/adar
 
 #### STEP 3: AndroidManifest changes 
 
-Add activity, Services, permissions and metd-data required for applozic in your AndroidManifest.xml. 
+Add activity, Services, permissions and meta-data required for applozic in your AndroidManifest.xml. 
 
 https://www.applozic.com/docs/android-chat-sdk.html#step-2-androidmanifest
 
 i) Register/Login User:
 
-ApplozicChatManger provide convinient method to register user with Applozic. You need to pass UserLoginListener refrence which have login success and failure events for callbacks.
+ApplozicChatManger provide convenient method to register user with Applozic. You need to pass UserLoginListener reference which have login success/failure events callbacks.
 
 ```    
 private UserLoginListener loginListener = new UserLoginListener();
@@ -35,7 +35,24 @@ ApplozicChatManager chatManager = new ApplozicChatManager(this);
 chatManager.RegisterUser(<USER_ID>, <USER_DISPLAY_NAME>, <PASSWORD>, loginListener);
   
 ```
-NOTE: IF you need to pass more information while doing registration, you can build Applozic user object and use below method for registartion.
+Event Callback:
+
+```
+void OnRegistrationSucessHandler( RegistrationResponse res, Context context)
+{
+  System.Console.WriteLine("Successfully got callback in LoginActivity :" + res.Message);
+}
+```
+
+```
+void OnRegistrationFailedHandler(RegistrationResponse res, Java.Lang.Exception exception)
+{
+  System.Console.WriteLine("Error:" + exception.Message);
+}
+```
+
+
+NOTE: IF you need to pass more information while doing registration, you can build Applozic user object and use below method for registration.
 
 ```
 // Build Applozic users..
@@ -50,7 +67,7 @@ chatManager.RegisterUser( user,loginListener);
 ```
 #### STEP 4: Launch chat:
 
-Use ALChatManager methods to launch different type of chats:
+Use ApplozicChatManager methods to launch different type of chats:
 
 i) Chat/Conversation List:
 
@@ -74,7 +91,7 @@ chatManager.LaunchChatWithUser(<USER_ID>);
 
  i) Add ApplozicFirebaseIIDService.cs to your project.
 
-ii) Declare the Receiver in the Android Manifest.
+ii) Declare the Receiver in the AndroidManifest.
 ```
 <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" 
 		android:exported="false" />
@@ -159,4 +176,8 @@ public override void OnMessageReceived(RemoteMessage message)
 		}
 ```
 
+### UI customisations from settings:
 
+For possible UICustomisations, please vist our Android Documentaion page below:
+
+https://www.applozic.com/docs/android-chat-sdk.html#customization
