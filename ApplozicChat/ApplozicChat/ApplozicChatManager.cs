@@ -4,7 +4,6 @@ using Java.Lang;
 using Com.Applozic.Mobicomkit.Uiwidgets.Conversation;
 using Com.Applozic.Mobicomkit.Api.Account.Register;
 using Com.Applozic.Mobicomkit.Api.Account.User;
-
 namespace Applozic
 {
 	public class ApplozicChatManager
@@ -33,14 +32,25 @@ namespace Applozic
 		public void RegisterUser(string userId, string displayName, string password ,UserLoginListener userLoginListener)
 		{
 			// Build Applozic users..
-
 			var user = new ApplozicUser();
 			user.DisplayName = displayName;
 			user.UserId = userId;
 			user.Password = password;
+			user.AuthenticationTypeId = new Short("1");
 
 			Java.Lang.Void[] args = null;
 			new UserLoginTask(user, userLoginListener, context).Execute(args);
+		}
+
+		/*
+		 */
+
+		public void RegisterUser(ApplozicUser applozicUser, UserLoginListener userLoginListener)
+		{
+			// Build Applozic users..
+
+			Java.Lang.Void[] args = null;
+			new UserLoginTask(applozicUser, userLoginListener, context).Execute(args);
 		}
 
 		/**
@@ -68,13 +78,31 @@ namespace Applozic
 		/**
 		 * 
 		 */
-		public void Logout()
+		public void Logout( UserLogoutListener userLogoutListener )
 		{
-			UserLogoutListener userLogoutListener = new UserLogoutListener();
 			Java.Lang.Void[] args = null;
 			new Com.Applozic.Mobicomkit.Api.Account.User.UserLogoutTask(userLogoutListener,context).Execute(args);
+
 		}
+
+		/**
+		 * 
+		 */
+
+		public void SendRegistrationToServer(string token)
+		{
+			Com.Applozic.Mobicomkit.Applozic.GetInstance(context).SetDeviceRegistrationId(token);
+			// Add custom implementation, as needed.
+			var applozicPref = MobiComUserPreference.GetInstance(context);
+			if (applozicPref.IsRegistered)
+			{
+				var registerClient = new RegisterUserClientService(context);
+				registerClient.UpdatePushNotificationId(token);
+			}
+		}
+
 	}
+
 
 	/**
 	 * 
@@ -130,17 +158,24 @@ namespace Applozic
 	 */
 	public class UserLogoutListener : Java.Lang.Object,UserLogoutTask.ITaskListener
 	{  
-
+		public delegate void OnLogoutSucess( Context context );
+		public delegate void OnLogoutFailed( Java.Lang.Exception e );
+		public event OnLogoutSucess OnLogoutSucessHandler;
+		public event OnLogoutFailed OnLogoutFailedHandler;
 		//RegistrationResponse registrationResponse, Context context
 		public void OnSuccess(Context context)
 		{
 			System.Console.WriteLine("Logged out sucessfully");
+			if (OnLogoutSucessHandler != null)
+			{
+				OnLogoutSucessHandler(context);
+			}
 		}
 
 		public void OnFailure(Java.Lang.Exception e)
 		{
 			System.Console.WriteLine("Exception ::" + e.Message);
-
+			OnLogoutFailedHandler(e);
 		}
 
 

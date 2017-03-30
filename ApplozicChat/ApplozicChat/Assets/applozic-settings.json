@@ -1,14 +1,14 @@
 {
   "customMessageBackgroundColor": "#FF03A9F4",
-  "sentMessageBackgroundColor": "#FF03A9F4",
-  "receivedMessageBackgroundColor": "#FFFFFFFF",
-  "sendButtonBackgroundColor": "#FF03A9F4",
+  "sentMessageBackgroundColor": "#c0e590",
+  "receivedMessageBackgroundColor": "#bfc6b6",
+  "sendButtonBackgroundColor": "#6cba1f",
   "attachmentIconsBackgroundColor": "#FF03A9F4",
   "channelCustomMessageBgColor": "#cccccc",
 
   "sentContactMessageTextColor:": "#FFFFFFFF",
   "receivedContactMessageTextColor": "#000000",
-  "sentMessageTextColor": "#FFFFFFFF",
+  "sentMessageTextColor": "#60635E",
   "receivedMessageTextColor": "#000000",
   "messageEditTextTextColor": "#000000",
   "sentMessageLinkTextColor": "#5fba7d",
@@ -20,8 +20,8 @@
   "messageTimeTextColor": "#838b83",
   "channelCustomMessageTextColor": "#666666",
 
-  "sentMessageBorderColor": "#FF03A9F4",
-  "receivedMessageBorderColor": "#FFFFFFFF",
+  "sentMessageBorderColor": "#00000000",
+  "receivedMessageBorderColor": "#00000000",
   "channelCustomMessageBorderColor": "#cccccc",
 
   "audioPermissionNotFoundMsg": "",

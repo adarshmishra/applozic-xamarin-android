@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:background="@color/alphabet_t"
     android:layout_height="match_parent">
     <TextView
         android:text="@string/applozic_sample_app"
@@ -20,7 +21,7 @@
         android:background="@color/white"
         android:layout_marginTop="10dp"
         android:padding="10dp"
-        android:textColor="@color/ripple_material_dark"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:layout_below="@+id/app_heading_tv" />
     <EditText
@@ -34,7 +35,7 @@
         android:gravity="center|left"
         android:layout_marginTop="10dp"
         android:padding="10dp"
-        android:textColor="@color/ripple_material_dark"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:layout_below="@+id/username_input" />
     <Button

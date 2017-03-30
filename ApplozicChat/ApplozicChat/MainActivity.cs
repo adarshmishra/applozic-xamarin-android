@@ -41,7 +41,14 @@ namespace ApplozicChat
 			};
 			logout.Click += delegate
 			{
-				chatManager.Logout();
+				UserLogoutListener logoutListener = new UserLogoutListener();
+				logoutListener.OnLogoutSucessHandler += (context) =>
+				{
+					context.StartActivity(typeof(LoginActivity));
+					this.Finish();
+				}; 
+				chatManager.Logout(logoutListener);
+
 			};
 
 		}

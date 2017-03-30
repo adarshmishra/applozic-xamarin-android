@@ -3,9 +3,8 @@ using Android.App;
 using Firebase.Iid;
 using Android.Util;
 using Firebase.Messaging;
-using Com.Applozic.Mobicomkit.Api.Account.User;
-using Com.Applozic.Mobicomkit.Api.Account.Register;
 using Com.Applozic.Mobicomkit.Api.Notification;
+using Applozic;
 
 namespace ApplozicChat
 {
@@ -19,20 +18,12 @@ namespace ApplozicChat
 		{
 			var refreshedToken = FirebaseInstanceId.Instance.Token;
 			Log.Debug(TAG, "Refreshed token: " + refreshedToken);
-			Com.Applozic.Mobicomkit.Applozic.GetInstance(this).SetDeviceRegistrationId(refreshedToken);
-			SendRegistrationToServer(refreshedToken);
+
+			ApplozicChatManager ChatManger = new ApplozicChatManager(this);
+			ChatManger.SendRegistrationToServer(refreshedToken);
 		}
 
-		void SendRegistrationToServer(string token)
-		{
-			// Add custom implementation, as needed.
-			var applozicPref = MobiComUserPreference.GetInstance(this);
-			if (applozicPref.IsRegistered)
-			{
-				var registerClient = new RegisterUserClientService(this);
-				registerClient.UpdatePushNotificationId(token);
-			}
-		}
+	
 	}
 
 

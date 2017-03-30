@@ -25,7 +25,7 @@ namespace ApplozicChat
 
 			loginListener= new UserLoginListener();
 			loginListener.OnRegistrationSucessHandler += OnRegistrationSucessHandler;
-			loginListener.OnRegistrationSucessHandler += OnRegistrationSucessHandler;
+			loginListener.OnRegistrationFailedHandler += OnRegistrationFailedHandler;
 
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.login_activity_layout);
@@ -37,6 +37,12 @@ namespace ApplozicChat
 			Button signIn = FindViewById<Button>(Resource.Id.sign_in_btn);
 			ApplozicChatManager chatManager = new ApplozicChatManager(this);
 
+
+			signIn.Click += delegate
+			{
+				chatManager.RegisterUser(userName.Text, userName.Text, password.Text, loginListener);
+			};
+
 			if (chatManager.ISUserLoggedIn())
 			{
 				System.Console.WriteLine("Already Registred ::");
@@ -44,10 +50,7 @@ namespace ApplozicChat
 				this.Finish();
 			}
 
-			signIn.Click += delegate
-			{
-				chatManager.RegisterUser(userName.Text, userName.Text, password.Text, loginListener);
-			};
+
 		}
 
 
@@ -63,7 +66,7 @@ namespace ApplozicChat
 		{
 			System.Console.WriteLine("Error while doing registrations:" + exception.Message);
 
-
+			Toast.MakeText(ApplicationContext, "Login Failed : " + exception.Message , ToastLength.Long).Show();
 		}
 
 	}
