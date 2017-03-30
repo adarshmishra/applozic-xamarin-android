@@ -31,7 +31,7 @@ private UserLoginListener loginListener = new UserLoginListener();
 loginListener.OnRegistrationSucessHandler += OnRegistrationSucessHandler;// login success event
 loginListener.OnRegistrationFailedHandler += OnRegistrationFailedHandler; //login failure event
 
-ApplozicChatManager chatManager = new ApplozicChatManager(this);
+ApplozicChatManager chatManager = new ApplozicChatManager(context);
 chatManager.RegisterUser(<USER_ID>, <USER_DISPLAY_NAME>, <PASSWORD>, loginListener);
   
 ```
@@ -52,7 +52,7 @@ void OnRegistrationFailedHandler(RegistrationResponse res, Java.Lang.Exception e
 ```
 
 
-NOTE: IF you need to pass more information while doing registration, you can build Applozic user object and use below method for registration.
+NOTE: If you need to pass more information while doing registration, you can build Applozic user object and use below method for registration.
 
 ```
 // Build Applozic users..
@@ -62,7 +62,7 @@ user.UserId = userId;
 user.Password = password;
 user.AuthenticationTypeId = new Short("1");
 
-ApplozicChatManager chatManager = new ApplozicChatManager(this);
+ApplozicChatManager chatManager = new ApplozicChatManager(context);
 chatManager.RegisterUser( user,loginListener);
 ```
 #### STEP 4: Launch chat:
@@ -72,7 +72,7 @@ Use ApplozicChatManager methods to launch different type of chats:
 i) Chat/Conversation List:
 
 ```
-ApplozicChatManager chatManager = new ApplozicChatManager(this);
+ApplozicChatManager chatManager = new ApplozicChatManager(context);
 chatManager.LaunchChatList();
 
 ```
@@ -80,8 +80,8 @@ chatManager.LaunchChatList();
 ii) One to One chat:
 
 ```
-ApplozicChatManager chatManager = new ApplozicChatManager(this);
-chatManager.LaunchChatWithUser(<USER_ID>);
+ApplozicChatManager chatManager = new ApplozicChatManager(context);
+chatManager.LaunchChatWithUser(<RECEIVER_USER_ID>);
 
 ```
 
@@ -120,7 +120,7 @@ i) Send pushnotification token to Applozic server:
 In your FirebaseInstanceIdService implementation class's OnTokenRefresh method send token to Applozic server. 
 
 ```
-ApplozicChatManager ChatManger = new ApplozicChatManager(this);
+ApplozicChatManager ChatManger = new ApplozicChatManager(context);
 ChatManger.SendRegistrationToServer(refreshedToken);
 
 ```
@@ -131,26 +131,26 @@ public override void OnTokenRefresh()
 			var refreshedToken = FirebaseInstanceId.Instance.Token;
 			Log.Debug(TAG, "Refreshed token: " + refreshedToken);
       //Send token to applozic server..
-			ApplozicChatManager ChatManger = new ApplozicChatManager(this);
+			ApplozicChatManager ChatManger = new ApplozicChatManager(context);
 			ChatManger.SendRegistrationToServer(refreshedToken);
 		}
 ```
 
 ii ) Receving and passing applozic notiifcations to SDK:
 
-In your FirebaseMessagingService implementation class's OnMessageReceived method, check if notification belogs to Applozic.
+In your FirebaseMessagingService implementation class's OnMessageReceived method, check if notification belongs to Applozic.
 
 ```
-//ADD below as a first code in OnMessageReceived.
+//ADD below at top in OnMessageReceived.
 if (message.Data.Count >0 )
-			{
-				if (MobiComPushReceiver.IsMobiComPushNotification(message.Data))
-				{
-					Log.Info(TAG, "Applozic notification processing...");
-					MobiComPushReceiver.ProcessMessageAsync(this, message.Data);
-					return;
-				}
-			}
+{
+	if (MobiComPushReceiver.IsMobiComPushNotification(message.Data))
+	{
+	   Log.Info(TAG, "Applozic notification processing...");
+	   MobiComPushReceiver.ProcessMessageAsync(this, message.Data);
+	   return;
+	}
+}
       
 ```
 
@@ -176,8 +176,23 @@ public override void OnMessageReceived(RemoteMessage message)
 		}
 ```
 
+### STEP 6:Log out: 
+
+
+```
+ApplozicChatManager ChatManger = new ApplozicChatManager(context);
+
+UserLogoutListener logoutListener = new UserLogoutListener();
+logoutListener.OnLogoutSucessHandler += (context) =>
+ {
+    //
+ }; 
+chatManager.Logout(logoutListener);
+
+```
+
 ### UI customisations from settings:
 
-For possible UICustomisations, please vist our Android Documentaion page below:
+For possible UICustomisations, please visit our Android Documentaion page below:
 
 https://www.applozic.com/docs/android-chat-sdk.html#customization
